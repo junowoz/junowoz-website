@@ -1,3 +1,14 @@
-.home{
-
+body {
+  background-color: #461D63;
 }
+
+#home{
+  height: 35px;
+  width: 35px;
+  position: fixed;
+}
+
+#juno{
+  size: 80px;
+}
+
