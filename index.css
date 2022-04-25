@@ -3,12 +3,14 @@ body {
 }
 
 #home{
-  height: 35px;
-  width: 35px;
-  position: fixed;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
 }
 
 #juno{
-  size: 80px;
+  width: 30px;
+  height: 30px;
 }
 
