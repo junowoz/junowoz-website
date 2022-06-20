@@ -357,7 +357,7 @@
                 children: [(0,
                 r.jsx)("h1", {
                     className: "font-medium mob:p-2 laptop:p-0",
-                    children: "junowoz.xyz | Portal"
+                    children: "/root/junowoz.xyz "
                 }), (0,
                 r.jsxs)("div", {
                     children: [(0,
@@ -373,7 +373,7 @@
                         onClick: function() {
                             return window.open("mailto:junogouvea@gmail.com")
                         },
-                        children: "e-mail me"
+                        children: "@E-mail"
                     })]
                 })]
             })
@@ -397,10 +397,10 @@
         }
           , u = {
             name: "chetan",
-            headerTaglineOne: "Hello \ud83d\udc4b",
-            headerTaglineTwo: "I'm Chetan Verma - curious designer and devloper based in New Delhi, India. ",
+            headerTaglineOne: "🌐 junowoz.xyz",
+            headerTaglineTwo: "",
             socials: [{
-                title: "Code | Github",
+                title: "Code",
                 link: "https://github.com/junowoz"
             }, {
                 title: "LinkedIn",
@@ -410,16 +410,16 @@
                 link: "https://twitter.com/junow0z"
             }, {
                 title: "Blog",
-                link: "https://blog.chetanverma.com/"
+                link: "https://blog.junowoz.xyz/"
             }, {
                 title: "Email",
                 link: "mailto:junogouvea@gmail.com"
             }],
             projects: [{
-                title: "Project One",
-                description: "Web Design",
-                imageSrc: "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-                url: "http://chetanverma.com/"
+                title: "Plethora Hub",
+                description: "Web3 Portal | Community",
+                imageSrc: "./images/logos/Plethora.jpg",
+                src: "./pages/plethora.html"
             }, {
                 title: "Project Two",
                 description: "Web Development",
@@ -553,7 +553,7 @@
                     children: [(0,
                     r.jsx)("h1", {
                         className: "text-2xl text-bold",
-                        children: "Work."
+                        children: "Projects"
                     }), (0,
                     r.jsx)("div", {
                         className: "mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-4",
@@ -618,13 +618,13 @@
                 }), (0,
                 r.jsxs)("h1", {
                     className: "text-sm text-bold mt-10 mob:mt-2 laptop:mt-10 mob:p-2 laptop:p-0",
-                    children: ["Made With \u2764 by", " ", (0,
+                    children: ["© 2022 |", " ", (0,
                     r.jsx)(a(), {
-                        href: "http://www.chetanverma.com",
+                        href: "https://www.junowoz.xyz",
                         children: (0,
                         r.jsx)("a", {
                             className: "underline underline-offset-1",
-                            children: "Chetan Verma"
+                            children: "@junowoz"
                         })
                     })]
                 })]
