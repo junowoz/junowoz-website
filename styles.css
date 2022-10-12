@@ -417,8 +417,6 @@ main {
 /*--------------------------BLOG------------------------------------ */
 
 .box {
-  background: #fff;
-  border-radius: 2px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
   margin: 30px 5%;
   padding: 5%;
