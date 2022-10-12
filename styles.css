@@ -29,20 +29,20 @@ body {
 }
 
 .light {
-  --clr-bg: #F4F5F5;
-  --clr-bg-alt: #FFFFFF;
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary: #303636;
+  --clr-bg: #F4F5F5; /*bg*/
+  --clr-bg-alt: #fcfcfc; /*boxes*/
+  --clr-fg: #555; /*text*/
+  --clr-fg-alt: #444; /*h2*/
+  --clr-primary: #303636; /*h1*/
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .dark {
-  --clr-bg: #303636;
-  --clr-bg-alt: #111414;
-  --clr-fg: #D4D8D8;
-  --clr-fg-alt: #EAECEC;
-  --clr-primary: #F4F5F5;
+  --clr-bg: #303636; /*bg*/
+  --clr-bg-alt: #111414; /*boxes*/
+  --clr-fg: #fcfcfc; /*text*/
+  --clr-fg-alt: #EAECEC; /*h2*/
+  --clr-primary: #F4F5F5; /*h1*/
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -67,19 +67,24 @@ h4 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.8rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: 2.3rem;
+}
+
+h6{
+  font-size: 1.2rem;
+  text-align: left;
 }
 
 ul {
@@ -96,8 +101,32 @@ button {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 2.6rem;
+    font-size: 3.7rem;
+    align-items: center;
   }
+
+  h2 {
+    font-size: 2.0rem;
+    align-items: center;
+    text-align: left;
+  }
+
+  h6{
+    text-align: left;
+  }
+
+  .about__name{
+    text-align: center;
+  }
+
+  .about__desc {
+    text-align: center;
+  }
+
+  .about__role {
+    text-align: center;
+  }
+  
 }
 
 /*===================
@@ -132,7 +161,7 @@ button {
 
 .link--nav {
   color: var(--clr-fg);
-  text-transform: lowercase;
+  text-transform: none;
   font-weight: 500;
 }
 
@@ -215,9 +244,9 @@ button {
 }
 
 .header {
-  height: 8em;
-  max-width: 1100px;
-  width: 95%;
+  height: 7em;
+  max-width: 1315px;
+  width: 80%;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -235,7 +264,7 @@ main {
 .section__title {
   text-align: center;
   margin-bottom: 1em;
-  text-transform: uppercase;
+  text-transform:none;
 }
 
 .nav__list {
@@ -259,6 +288,7 @@ main {
 
 .about__name {
   color: var(--clr-primary);
+  text-align: center;
 }
 
 .about__role {
@@ -266,7 +296,7 @@ main {
 }
 
 .about__desc {
-  font-size: 1rem;
+  font-size: 1.2rem;
   max-width: 600px;
 }
 
@@ -400,7 +430,8 @@ main {
   }
 
   .about {
-    align-items: flex-start;
+    text-align: center;
+    align-items: center;
     margin-top: 2em;
   }
 
@@ -412,21 +443,34 @@ main {
   .scroll-container {
     display: none;
   }
+
 }
 
 /*--------------------------BLOG------------------------------------ */
 
 .box {
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow);
   margin: 30px 5%;
   padding: 5%;
+  background-color: var(--clr-bg-alt);
 }
 
 @media (min-width: 544px) {
   .box {
     margin: 40px auto;
-    max-width: 440px;
+    max-width: 800px;
     padding: 40px;
+  }
+
+  .about{
+    text-align: center;
+  }
+  .about__name {
+    text-align: center;
+  }
+
+  .about__desc {
+    text-align: center;
   }
 }
 
@@ -438,31 +482,32 @@ main {
   margin-left: 10px;
   padding-left: 20px;
   border-left: 1px dashed #ddd;
+  color: var(--clr-primary);
 }
 
 .directory-list li {
   list-style: none;
-  color: #888;
+  color: var(--clr-fg-alt);
   font-size: 17px;
-  font-style: italic;
-  font-weight: normal;
+  font-style: normal;
+  font-weight: 600;
 }
 
 .directory-list a {
   border-bottom: 1px solid transparent;
-  color: #888;
+  color: var();
   text-decoration: none;
   transition: all 0.2s ease;
 }
 
 .directory-list a:hover {
   border-color: #eee;
-  color: #000;
+  color: var(--clr-primary);
 }
 
 .directory-list .folder,
 .directory-list .folder>a {
-  color: #777;
+  color: var(--clr-primary);
   font-weight: bold;
 }
 
@@ -486,7 +531,7 @@ main {
 
 .directory-list li.folder:before {
   /* folder icon if folder class is specified */
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path fill='lightblue' d='M96.429,37.5v39.286c0,3.423-1.228,6.361-3.684,8.817c-2.455,2.455-5.395,3.683-8.816,3.683H16.071 c-3.423,0-6.362-1.228-8.817-3.683c-2.456-2.456-3.683-5.395-3.683-8.817V23.214c0-3.422,1.228-6.362,3.683-8.817 c2.455-2.456,5.394-3.683,8.817-3.683h17.857c3.422,0,6.362,1.228,8.817,3.683c2.455,2.455,3.683,5.395,3.683,8.817V25h37.5 c3.422,0,6.361,1.228,8.816,3.683C95.201,31.138,96.429,34.078,96.429,37.5z' /></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path fill='grey' d='M96.429,37.5v39.286c0,3.423-1.228,6.361-3.684,8.817c-2.455,2.455-5.395,3.683-8.816,3.683H16.071 c-3.423,0-6.362-1.228-8.817-3.683c-2.456-2.456-3.683-5.395-3.683-8.817V23.214c0-3.422,1.228-6.362,3.683-8.817 c2.455-2.456,5.394-3.683,8.817-3.683h17.857c3.422,0,6.362,1.228,8.817,3.683c2.455,2.455,3.683,5.395,3.683,8.817V25h37.5 c3.422,0,6.361,1.228,8.816,3.683C95.201,31.138,96.429,34.078,96.429,37.5z' /></svg>");
   background-position: center top;
   background-size: 75% auto;
 }

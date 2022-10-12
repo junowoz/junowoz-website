@@ -5,13 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Portfolio" />
     <link type="image/png" sizes="16x16" rel="icon" href="./img/favicon.png">
-    <!--
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet"/>
-    -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
@@ -22,8 +16,10 @@
       crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="styles.css" />
-    <title>junowoz.xyz</title>
+    
+    <title>Portfolio | junowoz.xyz</title>
   </head>
+
   <body class="light" id="top">
     <header class="header center">
       <h3>
@@ -35,20 +31,17 @@
       <nav class="nav center">
         <ul class="nav__list center">
           <li class="nav__list-item">
-            <a class="link link--nav" href="#projects">Projects</a>
+            <a class="link link--nav" href="#projects">projects</a>
           </li>
           <li class="nav__list-item">
-            <a class="link link--nav" href="#blog">Blog</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#contact">Contact</a>
+            <a class="link link--nav" href="#blog">blog</a>
           </li>
           <li class="nav__list-item">
             <form>
               <select name="Language Menu" id="lang-switch" class="link link--nav" onchange="location = this.value;"">
-                <option value="./index.html" selected="EN">EN</option>
-                <option value="./0_pt/index.html">PT</option>
-                <option value="./0_es/index.html">ES</option>
+                <option value="./index.html" selected="EN">en</option>
+                <option value="./0_pt/index.html">pt-br</option>
+                <option value="./0_es/index.html">es</option>
               </select>
             </form>
           </li>
@@ -70,7 +63,7 @@
     <main>
       <!-- About -->
       <div class="about center">
-        <h1><span class="about__name">junowoz.xyz</span></h1>
+        <h1><span class="about__name">Juan José Gouvêa</span></h1>
         <h2 class="about__role">Front-End Developer</h2>
         <p class="about__desc">
           Computer Engineering and Economics student deeply interested
@@ -132,11 +125,11 @@
       <!-- Blog -->
       <section id="blog" class="section blog">
         <h2 class="section__title">Blog</h2>      
-        <div class="skills__list box">
+        <div class="box">
           <ul class="directory-list">
             <li class="folder">Economics
               <ul>
-                <li><a href="./blog/Economics/empreender.html">Empreender - 22.02.12</a></li>
+                <li><a href="./blog/Economics/seu_primeiro_negocio.html">Seu Primeiro Negócio - 12 Oct 2022</a></li>
                 <li><a href="./blog/Economics/primo2.html">Primo Rico Podcast #2 Insights - 22.02.10</a></li>
                 <li><a href="./blog/Economics/primo1.html">Primo Rico Podcast #1 Insights - 22.02.10</a></li>
                 <li><a href="./blog/Economics/fimdodolar.html">O Fim do Dolar - 22.02.10</a></li>
@@ -252,7 +245,7 @@
 
       <!-- Contact -->
       <section class="section contact center" id="contact">
-        <h2 class="section__title">Contact</h2>
+        <!--<h2 class="section__title">Contact</h2>-->
         <a href="mailto:junogouvea@gmail.com">
           <span class="btn btn--outline">Email-me</span>
         </a>
