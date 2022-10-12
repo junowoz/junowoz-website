@@ -1,181 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>junowoz.xyz</title>
-    <meta property="og:title" content="Portfolio Page" />
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link type="image/png" sizes="16x16" rel="icon" href="./img/favicon.png">
+    <!--
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
-      data-tag="font"/>
-    <link rel="stylesheet" href="./style.css" />
-    <link href="./home.css" rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"/>
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>junowoz.xyz</title>
   </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="./index.html" class="link">
+          <img src="data:image/png;base64,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">
+        </a>
+      </h3>
 
-  <body>
-    <div>
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
 
-      <div class="home-container">
-        <header data-role="Header" class="home-header">
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
 
-          <a href="./index.html">
-          <svg viewBox="0 0 1024 1024" class="home-icon">
-            <path
-              d="M480 64c-265.096 0-480 214.904-480 480 0 265.098 214.904 480 480 480 265.098 0 480-214.902 480-480 0-265.096-214.902-480-480-480zM751.59 704c8.58-40.454 13.996-83.392 15.758-128h127.446c-3.336 44.196-13.624 87.114-30.68 128h-112.524zM208.41 384c-8.58 40.454-13.996 83.392-15.758 128h-127.444c3.336-44.194 13.622-87.114 30.678-128h112.524zM686.036 384c9.614 40.962 15.398 83.854 17.28 128h-191.316v-128h174.036zM512 320v-187.338c14.59 4.246 29.044 11.37 43.228 21.37 26.582 18.74 52.012 47.608 73.54 83.486 14.882 24.802 27.752 52.416 38.496 82.484h-155.264zM331.232 237.516c21.528-35.878 46.956-64.748 73.54-83.486 14.182-10 28.638-17.124 43.228-21.37v187.34h-155.264c10.746-30.066 23.616-57.68 38.496-82.484zM448 384v128h-191.314c1.88-44.146 7.666-87.038 17.278-128h174.036zM95.888 704c-17.056-40.886-27.342-83.804-30.678-128h127.444c1.762 44.608 7.178 87.546 15.758 128h-112.524zM256.686 576h191.314v128h-174.036c-9.612-40.96-15.398-83.854-17.278-128zM448 768v187.34c-14.588-4.246-29.044-11.372-43.228-21.37-26.584-18.74-52.014-47.61-73.54-83.486-14.882-24.804-27.75-52.418-38.498-82.484h155.266zM628.768 850.484c-21.528 35.876-46.958 64.746-73.54 83.486-14.184 9.998-28.638 17.124-43.228 21.37v-187.34h155.266c-10.746 30.066-23.616 57.68-38.498 82.484zM512 704v-128h191.314c-1.88 44.146-7.666 87.040-17.28 128h-174.034zM767.348 512c-1.762-44.608-7.178-87.546-15.758-128h112.524c17.056 40.886 27.344 83.806 30.68 128h-127.446zM830.658 320h-95.9c-18.638-58.762-44.376-110.294-75.316-151.428 42.536 20.34 81.058 47.616 114.714 81.272 21.48 21.478 40.362 44.938 56.502 70.156zM185.844 249.844c33.658-33.658 72.18-60.932 114.714-81.272-30.942 41.134-56.676 92.666-75.316 151.428h-95.898c16.138-25.218 35.022-48.678 56.5-70.156zM129.344 768h95.898c18.64 58.762 44.376 110.294 75.318 151.43-42.536-20.34-81.058-47.616-114.714-81.274-21.48-21.478-40.364-44.938-56.502-70.156zM774.156 838.156c-33.656 33.658-72.18 60.934-114.714 81.274 30.942-41.134 56.678-92.668 75.316-151.43h95.9c-16.14 25.218-35.022 48.678-56.502 70.156z"></path>
-          </svg>
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger">
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1><span class="about__name">junowoz.xyz</span></h1>
+        <h2 class="about__role">Front-End Developer</h2>
+        <p class="about__desc">
+          Computer Engineering and Economics student deeply interested
+          in Web3 Engineering and cryptoeconomics.
+        </p>
+        <br>
+          <h6>
+          <span style="font-weight:600;">⚙️ Innovation Intern</span> @ECOA-PUCRIO
+          <br>
+          <span style="font-weight:600;">🦄 Translator &amp; Writer</span> @Web3Dev
+          <br>
+          <span style="font-weight:600;">🤖 Community Moderator</span> @Modak
+        </h6>
+        <div class="about__contact center">
+          <a href="./resume.pdf">
+            <span class="btn btn--outline">Resume</span>
           </a>
 
-          <div class="home-icon-group">
-            <a href="https://www.linkedin.com/in/juanjosegouveac/">
-            <svg  viewBox="0 0 877.7142857142857 1024" class="home-icon02">
-              <path
-                d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"></path>
-              </svg>
-            </a>
+          <a
+            href="https://github.com/junowoz"
+            aria-label="github"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
 
-            <a href="https://twitter.com/junow0z">
-              <svg viewBox="0 0 877.7142857142857 1024" class="home-icon04">
-              <path
-                d="M731.429 348.571c-21.714 9.714-44.571 16-69.143 19.429 25.143-14.857 44-38.857 53.143-66.857-23.429 13.714-49.143 24-76.571 29.143-21.714-23.429-53.143-37.714-87.429-37.714-66.286 0-120 53.714-120 120 0 9.143 0.571 18.857 2.857 27.429-100-5.143-188.571-52.571-248-125.714-10.286 17.714-16.571 38.857-16.571 60.571 0 41.714 19.429 78.286 52 100-20-0.571-38.857-6.286-57.143-14.857v1.143c0 58.286 44 106.857 98.857 117.714-10.286 2.857-18.286 4.571-29.143 4.571-7.429 0-14.857-1.143-22.286-2.286 15.429 47.429 59.429 82.286 112 83.429-41.143 32-92.571 51.429-149.143 51.429-9.714 0-19.429-0.571-28.571-1.714 53.143 33.714 116 53.714 184 53.714 220.571 0 341.714-182.857 341.714-341.714 0-5.143 0-10.286-0.571-15.429 23.429-16.571 44-37.714 60-62.286zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"></path>
-            </svg>
-            </a>
-          </div>
-        </header>
+          <a
+            href="https://linkedin.com/in/juanjosegouveac"
+            aria-label="linkedin"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
 
-        <div class="home-main">
-          <div class="home-banner">
-            <div class="home-container01">
-              <h1 class="home-text">junowoz.xyz 🌐</h1>
-              <span class="home-text01">
-                <span class="home-text02">
-                  Computer Engineering and Economics student deeply interested
-                  in Web3 Engineering and cryptoeconomics.
-                </span>
-                <br class="home-text03" />
-                <br class="home-text04" />
-                <span class="home-text05">
-                  ⚙️ Innovation Intern @ECOA-PUCRIO
-                </span>
-                <br class="home-text06" />
-                <a href="https://www.web3dev.com.br/junowoz">
-                <span class="home-text07">
-                  🦄 Translator &amp; Writer @Web3Dev
-                </span>
-                </a>
-                <br class="home-text08" />
-                <span class="home-text09">🤖 Community Moderator @Modak</span>
-                <span></span>
-                <span></span>
-              </span>
-            </div>
-            <div class="home-container02">
-              <a href="https://github.com/junowoz"><button class="home-button button">Code</button></a>
-              <a href="./pages/blog.html"><button class="home-button1 button" href="./blog/blog.html">Blog</button></a>
-            </div>
-          </div>
-        </div>
-        <div class="home-about">
-          <div class="home-max-content-width-container">
-            <div class="home-steps">
-              <div class="home-container03">
+          <a href="https://es.w3d.community/junowoz" 
+          aria-label="web3dev" 
+          class="link link--icon">
+            <i aria-hidden="true"><img src=""></i>
 
-              <a href="https://chat.whatsapp.com/DGiL42WALsVKBJ0Z6Ksiwf">
-                <div class="plethora">
-                  <div class="home-container04">
-                    <div class="home-line"></div>
-                    <div class="home-container05">
-                      <svg viewBox="0 0 1024 1024" class="home-icon06">
-                        <path
-                          d="M616.149 181.12l-104.149 60.16-104.149-60.16 82.603-47.189c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM170.667 585.941l106.667 61.611v120.747l-85.12-48.64c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581zM746.667 768.299v-120.747l106.667-61.611v96.725c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333zM809.003 291.328l-297.003 171.819-297.003-171.819 107.093-61.227 168.576 97.408c13.611 7.851 29.739 7.381 42.709 0l168.533-97.365zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l136.448-77.995c9.301-1.835 17.536-6.699 23.637-13.483l138.624-79.232c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-139.008-79.403c-6.272-7.125-14.635-11.776-23.595-13.525l-136.405-77.952c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-136.533 77.995c-8.96 1.749-17.323 6.4-23.595 13.483l-138.624 79.232c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l139.008 79.445c6.059 6.827 14.293 11.691 23.637 13.483l136.405 77.952c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-106.667-60.928v-194.133c0-15.701-8.491-29.44-21.333-36.949l-170.667-98.603v-123.093zM554.667 877.995v-340.949l298.667-172.757v123.093l-170.667 98.603c-13.611 7.851-21.248 22.059-21.333 36.949v194.133z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div class="home-line1"></div>
-                  </div>
-                  <div class="home-container06">
-                    <h1 class="home-text13">Plethora Hub</h1>
-                    <span class="home-text14">
-                      <span class="home-text15">Web3 Portal</span>
-                      <br class="home-text16" />
-                    </span>
-                  </div>
-              </a>
-                </div>
-
-                <a href="https://instagram.com/protonympha/">
-                <div class="protonympha">
-                  <div class="home-container07">
-                    <div class="home-line2"></div>
-                    <div class="home-container08">
-                      <svg viewBox="0 0 1024 1024" class="home-icon08">
-                        <path
-                          d="M213.333 85.333c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v597.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h597.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-597.333c0-35.328-14.379-67.413-37.504-90.496s-55.168-37.504-90.496-37.504zM469.333 362.667c0-29.44-11.989-56.149-31.232-75.435s-45.995-31.232-75.435-31.232-56.149 11.989-75.435 31.232-31.232 45.995-31.232 75.435 11.989 56.149 31.232 75.435 45.995 31.232 75.435 31.232 56.149-11.989 75.435-31.232 31.232-45.995 31.232-75.435zM384 362.667c0 5.888-2.347 11.179-6.229 15.104s-9.216 6.229-15.104 6.229-11.179-2.347-15.104-6.229-6.229-9.216-6.229-15.104 2.347-11.179 6.229-15.104 9.216-6.229 15.104-6.229 11.179 2.347 15.104 6.229 6.229 9.216 6.229 15.104zM316.331 853.333l366.336-366.336 170.667 170.667v153.003c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501zM853.333 537.003l-140.501-140.501c-16.683-16.683-43.691-16.683-60.331 0l-454.144 454.144c-5.76-2.133-10.88-5.504-15.189-9.813-7.765-7.765-12.501-18.389-12.501-30.165v-597.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h597.333c11.776 0 22.4 4.736 30.165 12.501s12.501 18.389 12.501 30.165z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div class="home-line3"></div>
-                  </div>
-                  <div class="home-container09">
-                    <h1 class="home-text17">Protonympha</h1>
-                    <span class="home-text18">
-                      <span>Art Galery</span>
-                      <br />
-                    </span>
-                  </div>
-                </div>
-                </a>
-
-              <a href="https://instagram.com/yottaproject/">
-                <div class="yotta">
-                  <div class="home-container10">
-                    <div class="home-line4"></div>
-                    <div class="home-container11">
-                      <svg viewBox="0 0 1024 1024" class="home-icon10">
-                        <path
-                          d="M256 213.333h512c11.776 0 22.4 4.736 30.165 12.501s12.501 18.389 12.501 30.165v512c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-512c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-512c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501zM384 341.333c-23.552 0-42.667 19.115-42.667 42.667v256c0 23.552 19.115 42.667 42.667 42.667h256c23.552 0 42.667-19.115 42.667-42.667v-256c0-23.552-19.115-42.667-42.667-42.667zM426.667 426.667h170.667v170.667h-170.667zM42.667 640h85.333v128c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h85.333v85.333c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-85.333h170.667v85.333c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-85.333h85.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-128h85.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-85.333v-128h85.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-85.333v-85.333c0-35.328-14.379-67.413-37.504-90.496s-55.168-37.504-90.496-37.504h-85.333v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-170.667v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-85.333c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v85.333h-85.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h85.333v128h-85.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div class="home-line5"></div>
-                  </div>
-                  <div class="home-container12">
-                    <h1 class="home-text21">Yotta</h1>
-                    <span class="home-text22">
-                      <span class="home-text23">Experimental Sounds</span>
-                      <br />
-                    </span>
-                  </div>
-                </div>
-                </a>
-                
-              <a href="https://open.spotify.com/artist/6sEIn4VuctOB7TZgNXhNbX?si=zxjd_4S7RWSSEG-HZHlCLw">
-                <div class="junowoz">
-                  <div class="home-container13">
-                    <div class="home-line6"></div>
-                    <div class="home-container14">
-                      <svg viewBox="0 0 1024 1024" class="home-icon12">
-                        <path
-                          d="M597.333 426.667v170.667h-170.667v-170.667zM768 170.667c23.595 0 44.843 9.515 60.331 25.003s25.003 36.736 25.003 60.331-9.515 44.843-25.003 60.331-36.736 25.003-60.331 25.003h-85.333v-85.333c0-23.595 9.515-44.843 25.003-60.331s36.736-25.003 60.331-25.003zM597.333 341.333h-170.667v-85.333c0-47.104-19.157-89.856-50.005-120.661s-73.557-50.005-120.661-50.005-89.856 19.157-120.661 50.005-50.005 73.557-50.005 120.661 19.157 89.856 50.005 120.661 73.557 50.005 120.661 50.005h85.333v170.667h-85.333c-47.104 0-89.856 19.157-120.661 50.005s-50.005 73.557-50.005 120.661 19.157 89.856 50.005 120.661 73.557 50.005 120.661 50.005 89.856-19.157 120.661-50.005 50.005-73.557 50.005-120.661v-85.333h170.667v85.333c0 47.104 19.157 89.856 50.005 120.661s73.557 50.005 120.661 50.005 89.856-19.157 120.661-50.005 50.005-73.557 50.005-120.661-19.157-89.856-50.005-120.661-73.557-50.005-120.661-50.005h-85.333v-170.667h85.333c47.104 0 89.856-19.157 120.661-50.005s50.005-73.557 50.005-120.661-19.157-89.856-50.005-120.661-73.557-50.005-120.661-50.005-89.856 19.157-120.661 50.005-50.005 73.557-50.005 120.661zM341.333 341.333h-85.333c-23.595 0-44.843-9.515-60.331-25.003s-25.003-36.736-25.003-60.331 9.515-44.843 25.003-60.331 36.736-25.003 60.331-25.003 44.843 9.515 60.331 25.003 25.003 36.736 25.003 60.331zM341.333 682.667v85.333c0 23.595-9.515 44.843-25.003 60.331s-36.736 25.003-60.331 25.003-44.843-9.515-60.331-25.003-25.003-36.736-25.003-60.331 9.515-44.843 25.003-60.331 36.736-25.003 60.331-25.003zM682.667 682.667h85.333c23.595 0 44.843 9.515 60.331 25.003s25.003 36.736 25.003 60.331-9.515 44.843-25.003 60.331-36.736 25.003-60.331 25.003-44.843-9.515-60.331-25.003-25.003-36.736-25.003-60.331z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div class="home-line7"></div>
-                  </div>
-                  <div class="home-container15">
-                    <h1 class="home-text25">Juno Woz</h1>
-                    <span class="home-text26">
-                      <span class="home-text27">Dimensional Sounds</span>
-                      <br />
-                    </span>
-                  </div>
-                </div>
-                </a>
-
-              </div>
-            </div>
-          </div>
+          <a href="https://twitter.com/junow0z" 
+            aria-label="twitter" 
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-twitter"></i>
+          </a>
         </div>
       </div>
+
+      <!-- Blog -->
+      
+      <section id="blog" class="section blog">
+        <h2 class="section__title">Blog</h2>      
+        <div class="box">
+          <ul class="directory-list">
+            <li class="folder">assets
+              <ul>
+                <li class="folder">css
+                  <ul>
+                    <li>typography.css</li>
+                    <li>layout.css</li>
+                    <li>modules.css</li>
+                    <li>states.css</li>
+                    <li>theme.css</li>
+                  </ul>
+                </li>
+                <li class="folder">js
+                  <ul>
+                    <li>custom.js</li>
+                    <li>jquery.js</li>
+                  </ul>
+                </li>
+                <li class="folder">images
+                  <ul>
+                    <li>logo.svg</li>
+                    <li>arrow-sprite.svg</li>
+                    <li>social-sprite.svg</li>
+                  </ul>
+                </li>
+                <li>functions.php</li>
+              </ul>
+            </li>
+            <li class="folder">templates
+              <ul>
+                <li class="folder"><a href="#just-makin-sure-links-look-ok">pages</a>
+                  <ul>
+                    <li><a href="#just-makin-sure-links-look-ok">about.tpl</a></li>
+                    <li>pricing.tpl</li>
+                    <li>contact.tpl</li>
+                    <li>home.tpl</li>
+                    <li>features.tpl</li>
+                  </ul>
+                </li>
+                <li>header.tpl</li>
+                <li>menu.tpl</li>
+                <li>footer.tpl</li>
+              </ul>
+            </li>
+            <li>index.php</li>
+            <li>style.css</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Projects | Do when I actually have projects |
+
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Project 1</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon">
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Project 2</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon">
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Project 3</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon">
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+-->
+
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">SCSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:junogouvea@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/junowoz/portfolio.xyz"
+        class="link footer__link">
+        junowoz.xyz
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
     </div>
+    </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>

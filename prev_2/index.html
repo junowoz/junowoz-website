@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>junowoz.xyz</title>
+
+    <link type="image/png" sizes="16x16" rel="icon" href="./img/favicon.png">
+
+    <meta property="og:title" content="Portfolio Page" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css" />
+    <link href="./index.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+
+  <body>
+      <div class="all">
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3F4045;">
+          <a class="navbar-brand active" href="./index.html"><img
+            src="data:image/png;base64,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"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="AlternaNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/juanjosegouveac/" style="color:#D4D5D8; font-weight:500 "><span style="color: #F4F5F5;">1.</span> LinkedIn</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="https://es.w3d.community/junowoz" style="color:#D4D5D8; font-weight:500 "><span style="color: #F4F5F5;">2.</span>Web3Dev</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="https://twitter.com/junow0z" style="color:#D4D5D8; font-weight:500 "><span style="color: #F4F5F5;">3.</span>Twitter</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="mailto:junogouvea@gmail.com" style="color:#D4D5D8; font-weight:500 ;"><span style="color: #F4F5F5;">4.</span>E-mail</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./resume.pdf" style="color:#D4D5D8; font-weight:500 ;"><span
+                    style="color: #F4F5F5;">5.</span>Resume</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="home-main">
+
+          <div class="home-banner">
+            <div class="home-container01">
+              <h1 class="home-text">junowoz.xyz 🌐</h1>
+              <span class="home-text01">
+                <span class="home-text02">
+                  Computer Engineering and Economics student deeply interested
+                  in Web3 Engineering and cryptoeconomics.
+                  <br><br>
+                    <code style="color: rgb(0, 60, 116);"> ⎚ HTML | CSS | JavaScript </code>
+                  <br>
+                     <code style="color: #d83301;""> ⎚ ReactJs | Solidity</code>
+                </span>
+
+                <br class="home-text03" />
+                <br class="home-text04" />
+
+                <a href="http://insurtech.les.inf.puc-rio.br/">
+                <span class="home-text05">
+                  ⚙️ Innovation Intern @ECOA-PUCRIO
+                </span>
+                </a>
+
+                <br class="home-text06" />
+
+                <a href="https://es.w3d.community/junowoz">
+                <span class="home-text07">
+                  🦄 Translator &amp; Writer @Web3Dev
+                </span>
+                </a>
+
+                <br class="home-text08" />
+
+                <a href="https://modak.live">
+                <span class="home-text09">
+                  🤖 Community Moderator @Modak
+                </span>
+                </a>
+
+              </span>
+            </div>
+            
+            <div class="home-container02">
+              <a href="https://github.com/junowoz"><button type=" button" class="home-button btn btn-dark btn-lg">Code</button></a>
+              <a href="./pages/blog.html"><button class="home-button1 btn btn-dark btn-lg" href="./blog/blog.html">Blog</button></a>
+            </div>
+          </div>
+        </div>
+        <br> <br>
+        <div class="home-about">
+          <div class="home-max-content-width-container">
+            <div class="home-steps">
+              <div class="home-container03">
+
+              <a href="https://chat.whatsapp.com/DGiL42WALsVKBJ0Z6Ksiwf">
+                <div class="plethora">
+                  <div class="home-container04">
+                    <div class="home-line"></div>
+                    <div class="home-container05">
+                      <svg viewBox="0 0 1024 1024" class="home-icon06">
+                        <path
+                          d="M616.149 181.12l-104.149 60.16-104.149-60.16 82.603-47.189c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM170.667 585.941l106.667 61.611v120.747l-85.12-48.64c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581zM746.667 768.299v-120.747l106.667-61.611v96.725c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333zM809.003 291.328l-297.003 171.819-297.003-171.819 107.093-61.227 168.576 97.408c13.611 7.851 29.739 7.381 42.709 0l168.533-97.365zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l136.448-77.995c9.301-1.835 17.536-6.699 23.637-13.483l138.624-79.232c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-139.008-79.403c-6.272-7.125-14.635-11.776-23.595-13.525l-136.405-77.952c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-136.533 77.995c-8.96 1.749-17.323 6.4-23.595 13.483l-138.624 79.232c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l139.008 79.445c6.059 6.827 14.293 11.691 23.637 13.483l136.405 77.952c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-106.667-60.928v-194.133c0-15.701-8.491-29.44-21.333-36.949l-170.667-98.603v-123.093zM554.667 877.995v-340.949l298.667-172.757v123.093l-170.667 98.603c-13.611 7.851-21.248 22.059-21.333 36.949v194.133z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="home-line1"></div>
+                  </div>
+                  <div class="home-container06">
+                    <h1 class="home-text13">Plethora Hub</h1>
+                    <span class="home-text14">
+                      <span class="home-text15">Web3 Portal</span>
+                      <br class="home-text16" />
+                    </span>
+                  </div>
+              </a>
+                </div>
+
+                <a href="https://instagram.com/protonympha/">
+                <div class="protonympha">
+                  <div class="home-container07">
+                    <div class="home-line2"></div>
+                    <div class="home-container08">
+                      <svg viewBox="0 0 1024 1024" class="home-icon08">
+                        <path
+                          d="M213.333 85.333c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v597.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h597.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-597.333c0-35.328-14.379-67.413-37.504-90.496s-55.168-37.504-90.496-37.504zM469.333 362.667c0-29.44-11.989-56.149-31.232-75.435s-45.995-31.232-75.435-31.232-56.149 11.989-75.435 31.232-31.232 45.995-31.232 75.435 11.989 56.149 31.232 75.435 45.995 31.232 75.435 31.232 56.149-11.989 75.435-31.232 31.232-45.995 31.232-75.435zM384 362.667c0 5.888-2.347 11.179-6.229 15.104s-9.216 6.229-15.104 6.229-11.179-2.347-15.104-6.229-6.229-9.216-6.229-15.104 2.347-11.179 6.229-15.104 9.216-6.229 15.104-6.229 11.179 2.347 15.104 6.229 6.229 9.216 6.229 15.104zM316.331 853.333l366.336-366.336 170.667 170.667v153.003c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501zM853.333 537.003l-140.501-140.501c-16.683-16.683-43.691-16.683-60.331 0l-454.144 454.144c-5.76-2.133-10.88-5.504-15.189-9.813-7.765-7.765-12.501-18.389-12.501-30.165v-597.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h597.333c11.776 0 22.4 4.736 30.165 12.501s12.501 18.389 12.501 30.165z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="home-line3"></div>
+                  </div>
+                  <div class="home-container09">
+                    <h1 class="home-text17">Protonympha</h1>
+                    <span class="home-text18">
+                      <span>Art Galery</span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+                </a>
+
+              <a href="https://instagram.com/yottaproject/">
+                <div class="yotta">
+                  <div class="home-container10">
+                    <div class="home-line4"></div>
+                    <div class="home-container11">
+                      <svg viewBox="0 0 1024 1024" class="home-icon10">
+                        <path
+                          d="M256 213.333h512c11.776 0 22.4 4.736 30.165 12.501s12.501 18.389 12.501 30.165v512c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-512c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-512c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501zM384 341.333c-23.552 0-42.667 19.115-42.667 42.667v256c0 23.552 19.115 42.667 42.667 42.667h256c23.552 0 42.667-19.115 42.667-42.667v-256c0-23.552-19.115-42.667-42.667-42.667zM426.667 426.667h170.667v170.667h-170.667zM42.667 640h85.333v128c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h85.333v85.333c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-85.333h170.667v85.333c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-85.333h85.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-128h85.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-85.333v-128h85.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-85.333v-85.333c0-35.328-14.379-67.413-37.504-90.496s-55.168-37.504-90.496-37.504h-85.333v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-170.667v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-85.333c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v85.333h-85.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h85.333v128h-85.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="home-line5"></div>
+                  </div>
+                  <div class="home-container12">
+                    <h1 class="home-text21">Yotta</h1>
+                    <span class="home-text22">
+                      <span class="home-text23">Experimental Sounds</span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+                </a>
+                
+              <a href="https://open.spotify.com/artist/6sEIn4VuctOB7TZgNXhNbX?si=zxjd_4S7RWSSEG-HZHlCLw">
+                <div class="junowoz">
+                  <div class="home-container13">
+                    <div class="home-line6"></div>
+                    <div class="home-container14">
+                      <svg viewBox="0 0 1024 1024" class="home-icon12">
+                        <path
+                          d="M597.333 426.667v170.667h-170.667v-170.667zM768 170.667c23.595 0 44.843 9.515 60.331 25.003s25.003 36.736 25.003 60.331-9.515 44.843-25.003 60.331-36.736 25.003-60.331 25.003h-85.333v-85.333c0-23.595 9.515-44.843 25.003-60.331s36.736-25.003 60.331-25.003zM597.333 341.333h-170.667v-85.333c0-47.104-19.157-89.856-50.005-120.661s-73.557-50.005-120.661-50.005-89.856 19.157-120.661 50.005-50.005 73.557-50.005 120.661 19.157 89.856 50.005 120.661 73.557 50.005 120.661 50.005h85.333v170.667h-85.333c-47.104 0-89.856 19.157-120.661 50.005s-50.005 73.557-50.005 120.661 19.157 89.856 50.005 120.661 73.557 50.005 120.661 50.005 89.856-19.157 120.661-50.005 50.005-73.557 50.005-120.661v-85.333h170.667v85.333c0 47.104 19.157 89.856 50.005 120.661s73.557 50.005 120.661 50.005 89.856-19.157 120.661-50.005 50.005-73.557 50.005-120.661-19.157-89.856-50.005-120.661-73.557-50.005-120.661-50.005h-85.333v-170.667h85.333c47.104 0 89.856-19.157 120.661-50.005s50.005-73.557 50.005-120.661-19.157-89.856-50.005-120.661-73.557-50.005-120.661-50.005-89.856 19.157-120.661 50.005-50.005 73.557-50.005 120.661zM341.333 341.333h-85.333c-23.595 0-44.843-9.515-60.331-25.003s-25.003-36.736-25.003-60.331 9.515-44.843 25.003-60.331 36.736-25.003 60.331-25.003 44.843 9.515 60.331 25.003 25.003 36.736 25.003 60.331zM341.333 682.667v85.333c0 23.595-9.515 44.843-25.003 60.331s-36.736 25.003-60.331 25.003-44.843-9.515-60.331-25.003-25.003-36.736-25.003-60.331 9.515-44.843 25.003-60.331 36.736-25.003 60.331-25.003zM682.667 682.667h85.333c23.595 0 44.843 9.515 60.331 25.003s25.003 36.736 25.003 60.331-9.515 44.843-25.003 60.331-36.736 25.003-60.331 25.003-44.843-9.515-60.331-25.003-25.003-36.736-25.003-60.331z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="home-line7"></div>
+                  </div>
+                  <div class="home-container15">
+                    <h1 class="home-text25">Juno Woz</h1>
+                    <span class="home-text26">
+                      <span class="home-text27">Dimensional Sounds</span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

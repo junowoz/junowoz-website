@@ -1,12 +1,10 @@
 html {
   line-height: 1.15;
   scroll-behavior: smooth ;
-  font-family: Roboto;
   font-size: 16px;
-}
-
-body {
-  margin: 0;
+  font-family: 'Questrial', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Sora', sans-serif;
 }
 
 * {
@@ -15,122 +13,28 @@ body {
   border-style: solid;
 }
 
-p,
-li,
-ul,
-pre,
-div,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-}
-
-button,
-select {
-  text-transform: none;
-}
-
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
-
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-
-button:-moz-focus,
-[type="button"]:-moz-focus,
-[type="reset"]:-moz-focus,
-[type="submit"]:-moz-focus {
-  outline: 1px dotted ButtonText;
-}
-
 a {
-  color: inherit;
-  text-decoration: inherit;
-}
-
-input {
-  padding: 2px 4px;
-}
-
-img {
-  display: block;
-}
-
-body {
-  font-weight: 400;
-  font-style: normal;
+  color: none;
   text-decoration: none;
-  text-transform: none;
-  letter-spacing: normal;
-  line-height: 1.55;
-  color: var(--dl-color-gray-black);
-  background-color: var(--dl-color-gray-white);
 }
 
-.home-container {
+.all {
   width: 100%;
-  height: auto;
-  display: flex;
   min-height: 100vh;
-  align-items: center;
-  flex-direction: column;
-  background-color: #f7f7f7;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #61636B;
 }
-.home-header {
-  width: 100%;
-  height: 103px;
-  display: flex;
-  max-width: 100%;
-  align-items: center;
-  padding-top: 32px;
-  padding-left: 191px;
-  padding-right: 239px;
-  padding-bottom: 32px;
-  justify-content: space-between;
-  background-color: #e8e8e8;
-}
-.home-icon {
-  width: 35px;
-  height: 35px;
-  align-self: center;
-}
-.home-icon02 {
-  width: 30px;
-  height: 30px;
-}
+
 .home-icon04 {
   width: 30px;
   height: 30px;
   margin-left: var(--dl-space-space-tripleunit);
 }
+
+
 .home-main {
   width: 100%;
-  height: 505px;
   display: flex;
   max-width: 100%;
   min-width: 100%;
@@ -141,8 +45,10 @@ body {
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: center;
-  background-color: #f7f7f7;
 }
+
+
+
 .home-banner {
   width: 100%;
   height: auto;
@@ -151,6 +57,8 @@ body {
   flex-direction: row;
   justify-content: center;
 }
+
+
 .home-container01 {
   width: 561px;
   height: 463px;
