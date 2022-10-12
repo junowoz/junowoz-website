@@ -89,7 +89,7 @@ body {
     color: var(--clr-fg);
     line-height: 1.5;
     background-color: var(--clr-bg);
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 
 .markdown-styles {
@@ -207,9 +207,8 @@ buttons and links
 .link--nav {
     color: var(--clr-fg);
     text-transform: none;
-    font-weight: 500;
+    font-weight: 400;
 }
-
 
 /*========
 layout
@@ -327,7 +326,7 @@ main {
     padding: 5%;
     background-color: var(--clr-bg-alt);
     color: var(--clr-md);
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 1em;
 
 }

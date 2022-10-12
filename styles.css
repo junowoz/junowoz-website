@@ -24,8 +24,7 @@ body {
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
-  font-family: 'Inconsolata', monospace;
-  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
 }
 
 .light {
@@ -85,6 +84,7 @@ h4 {
 h6{
   font-size: 1.2rem;
   text-align: left;
+  font-weight: 400;
 }
 
 ul {
@@ -162,7 +162,7 @@ button {
 .link--nav {
   color: var(--clr-fg);
   text-transform: none;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .link--icon {
@@ -258,7 +258,7 @@ main {
 }
 
 .section {
-  margin-top: 5em;
+  margin-top: 4em;
 }
 
 .section__title {
@@ -490,7 +490,7 @@ main {
   color: var(--clr-fg-alt);
   font-size: 17px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .directory-list a {
@@ -510,7 +510,6 @@ main {
   color: var(--clr-primary);
   font-weight: bold;
 }
-
 
 /* The icons
 -------------------------------------------------------------- */
