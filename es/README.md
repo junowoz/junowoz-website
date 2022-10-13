@@ -2,7 +2,7 @@
 
 Estudiante de Ingeniería de Computación y Economía con experiencia en Desarrollo de Software utilizando principalmente tecnologías Front-End. Actualmente estoy profundizando en:
 
-- HTML, CSS, JavaScript y React.
+- HTML, CSS, JavaScript y Vue.js.
 - SQL.
 - Metodologías ágiles de desarrollo de software (Kanban & GTD).
 - Prototipado de aplicaciones con Figma.

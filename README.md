@@ -2,7 +2,7 @@
 
 Computer Engineering and Economics student with experience in Software Development mainly using Front-End technologies. I am currently delving into:
 
-- HTML, CSS, JavaScript and React.
+- HTML, CSS, JavaScript and Vue.js.
 - SQL.
 - Agile software development methodologies (Kanban & GTD).
 - App prototyping with Figma.
