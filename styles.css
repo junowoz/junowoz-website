@@ -414,6 +414,8 @@ main {
     width: 0;
     overflow: hidden;
     transition: width 0.2s ease-in-out;
+    border: 1px solid var(--clr-fg);
+    z-index: 1;
   }
 
   .display-nav-list {
