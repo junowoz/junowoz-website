@@ -1,7 +1,7 @@
 
 # Seu Primeiro Negócio
 
-### ANNE TE AMO
+### EMPREENDER
 
 - É agregar valor ao mercado. Um mercado é uma estrutura econômica.
   - Grandes, pequenos, restrições, limitações, etc…
