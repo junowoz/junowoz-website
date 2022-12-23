@@ -1,4 +1,4 @@
-# junowoz.xyz/pt
+# junowoz.github.io/portfolio/pt
 
 Estudante de Engenharia da Computação e Economia com experiência em Desenvolvimento de Software. Atualmente estou me aprofundando em:
 
