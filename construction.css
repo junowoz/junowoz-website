@@ -6,6 +6,8 @@ body {
 
 .container {
   margin: 50px auto;
+  margin-left: 100px;
+  margin-right: 100px;
   padding: 20px;
   background-color: #FFFFFF;
   border-radius: 10px;
