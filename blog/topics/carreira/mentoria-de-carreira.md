@@ -6,7 +6,7 @@ Na palestra de hoje vou focar em 1 destes 3 aspectos: Mercado. A primeira coisa 
 
 Pessoalmente gosto muito de empreendedorismo, então se quiserem uma outra palestra somente focada em empreendedorismo em nossa área, avisem à prof. Aline, que ela se comunica comigo e eu preparo algo pra vocês.
 2. ## Em que me Especializar?
-git commit -m 'mentoria2' --date 2023-01-19
+git commit -m 'mentoria2' --date 2023-01-20
 
 - Academia -> Pesquisa, Tem um mundo
 - Mercado -> Dev ou Eletronico?
