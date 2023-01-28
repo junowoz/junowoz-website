@@ -1,14 +1,17 @@
-import "../styles/construction.css";
+import Image from 'next/image'
+import { Inter } from '@next/font/google'
+import styles from './page.module.css'
+
+const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-    return (
-        <div className="container">
-            <h1>Em Construção 🚧👷‍♂️</h1>
-            <p>
-                Desculpe pelo inconveniente, estou trabalhando em uma melhor
-                versão do site para melhorar a sua experiência.
-            </p>
-            <p>Por favor, volte mais tarde.</p>
-        </div>
-    );
+  return (
+    <main className={styles.main}>
+
+    </main>
+  )
 }
+
+
+
+
