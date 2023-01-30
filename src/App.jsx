@@ -8,8 +8,6 @@ import Skills from "./components/Skills";
 
 function App() {
     const [theme, setTheme] = useState(null);
-    const [language, setLanguage] = useState("English");
-
 
     useEffect(() => {
         if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
@@ -31,10 +29,6 @@ function App() {
         }
     }, [theme]);
 
-       const handleLanguageSwitch = () => {
-           setLanguage(language === "English" ? "Portuguese" : "English");
-    };
-    
     const sun = (
         <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -74,17 +68,9 @@ function App() {
             <button
                 type="button"
                 onClick={handleThemeSwitch}
-                className="fixed p-2 z-10 right-20 top-4 bg-violet-600 dark:bg-orange-500 text-lg p-1 rounded-md"
+                className="fixed p-2 z-10 right-10 top-10 bg-violet-600 dark:bg-orange-500 text-lg p-1 rounded-md"
             >
                 {theme === "dark" ? sun : moon}
-            </button>
-
-            <button
-                type="button"
-                onClick={handleLanguageSwitch}
-                className="fixed p-2 z-10 right-20 top-4 bg-violet-600 dark:bg-orange-500 text-lg p-1 rounded-md"
-            >
-                {language === "English" ? "EN" : "PT"}
             </button>
 
             <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">

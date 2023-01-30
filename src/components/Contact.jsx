@@ -5,7 +5,6 @@ import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-
 function Contact() {
     const [theme, setTheme] = React.useState("light");
 
@@ -16,7 +15,7 @@ function Contact() {
             }`}
         >
             <a
-                href="public/resume/resume_en.pdf"
+                href="resume_en.pdf"
                 target="_blank"
                 className="py-3 px-4 bg-gray-500 hover:bg-orange-600 text-white font-bold rounded transition duration-300 ease-in-out transform hover:scale-105"
             >
@@ -42,7 +41,10 @@ function Contact() {
             >
                 <FontAwesomeIcon icon={faSquareTwitter} className="fa-2xl" />
             </a>
-            <a href="mailto:junogouvea@gmail.com" className="p-1 inline-flex text-xl">
+            <a
+                href="mailto:junogouvea@gmail.com"
+                className="p-1 inline-flex text-xl"
+            >
                 <FontAwesomeIcon icon={faEnvelope} className="fa-2xl" />
             </a>
         </div>

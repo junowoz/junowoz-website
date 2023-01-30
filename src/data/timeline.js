@@ -1,37 +1,40 @@
 export default [
-   {
-      year: 'Current',
-      title: 'Software Developer - Recycling',
-      duration: '1 Year',
-      details: 
-         'My humble attempt at building my version of the digital world one step at a time by documenting my coding journey and creating software engineering and computer science content to help those coming behind me.',
-   },
-   {
-		year: 'Today',
-		title: 'Solo Indie Developer',
-		duration: '4 years',
-		details:
-			"I'm a solo indie developer building software for myself and clients to showcase on YouTube. All coding projects are built from the ground up, from planning and designing all the way to solving real-life problems with code.",
-	},
-	{
-		year: '2019',
-		title: 'Software Engineer',
-		duration: '2 years',
-		details:
-			'I helped build an enterprise application for a Fortune 500 company in an Agile team setting. Our tech stack consisted of TypeSciprt, Angular, Java, Gradle, and a handful of other languages and tools.',
-	},
-	{
-		year: '2018',
-		title: "Bachelor's Degree in Computer Science",
-		duration: '5 years',
-		details:
-			'I pursued the knowledge that a computer science degree had to offer. I learned about computer architecture, computer science theory, an array of programming, and aspects of artificial intelligence.',
-	},
-	{
-		year: '2013',
-		title: 'First Line of Code',
-		duration: 'the beginning',
-		details:
-			"I wrote my first line of real code that started this journey into digital craftsmanship that I never could've imagined, especially as someone who never saw themselves as anything other than a blue collar worker.",
-	},
-]
+    {
+        year: "2023",
+        title: "Software Developer",
+        company: "Recycling",
+        duration: "Feb 2023 - Present",
+        details: "",
+    },
+    {
+        year: "2022",
+        title: "Global Expansion Lead",
+        company: "WEB3DEV",
+        duration: "Oct 2022 - Present",
+        details:
+            "• Creation of a quarterly plan, and setting of community expansion goals for more than 5 Hispanic countries, recruiting and selection of potential collaborators, evaluation of team performance, providing constant feedback, and identification of which members are needed to achieve specific goals.",
+    },
+    {
+        year: "2022",
+        title: "Community Moderator",
+        company: "Modak",
+        duration: "Sep 2022 - Present",
+        details:
+            "• Review and moderate all user-generated content and user profiles, monitor conversations and work with contributors to manage, update, archive, or delete any inappropriate content.",
+    },
+    {
+        year: "2022",
+        title: "Software Development Intern",
+        company: "ECOA PUCRIO",
+        duration: "Mar 2022 - Mar 2023 · 1 yr",
+        details:
+            "• Front-end development with HTML, CSS, JavaScript, VueJS and ReactJS, research and problem-solving for the insurance industry, making use of emerging technologies, agile software development (Kanban & GTD), and multidisciplinary approach with Challenge-based learning (CBL) framework, App prototyping with Figma and design thinking methodologies.",
+    },
+    {
+        year: "2020",
+        title: "Computer Engineering, Economics",
+        duration: "5 years",
+        company: "Centro Universitário Fametro",
+        details: "Class Leader, Grade: 8.3",
+    },
+];

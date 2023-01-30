@@ -28,7 +28,7 @@ function PortfolioItem({ title, imgUrl, stack, link, repo }) {
                         rel="noopener noreferrer"
                         className="inline-block items-center px-3 py-2 border-2 border-stone-900 dark:border-white rounded-md hover:bg-stone-900 dark:hover:bg-white hover:text-white dark:hover:text-stone-900 transition-colors duration-200 ease-in-out"
                     >
-                        <span className="font-medium">Github</span>
+                        <span className="font-medium">Code</span>
                     </a>
                     <a
                         href={link}
@@ -36,7 +36,7 @@ function PortfolioItem({ title, imgUrl, stack, link, repo }) {
                         rel="noopener noreferrer"
                         className="inline-block items-center px-3 py-2 border-2 border-stone-900 dark:border-white rounded-md hover:bg-stone-900 dark:hover:bg-white hover:text-white dark:hover:text-stone-900 transition-colors duration-200 ease-in-out"
                     >
-                        <span className="font-medium">Live demo</span>
+                        <span className="font-medium">Live</span>
                     </a>
                 </div>
             </div>
