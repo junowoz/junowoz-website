@@ -9,11 +9,24 @@ import Skills from "./components/Skills";
 function App() {
     const [theme, setTheme] = useState(null);
 
+    // useEffect(() => {
+    //     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    //         setTheme("dark");
+    //     } else {
+    //         setTheme("light");
+    //     }
+    // }, []);
+
     useEffect(() => {
         if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
             setTheme("dark");
         } else {
-            setTheme("light");
+            const currentHour = new Date().getHours();
+            if (currentHour >= 6 && currentHour < 18) {
+                setTheme("light");
+            } else {
+                setTheme("dark");
+            }
         }
     }, []);
 
@@ -65,13 +78,15 @@ function App() {
 
     return (
         <>
-            <button
-                type="button"
-                onClick={handleThemeSwitch}
-                className="fixed p-2 z-10 right-10 top-10 bg-violet-600 dark:bg-orange-500 text-lg p-1 rounded-md"
-            >
-                {theme === "dark" ? sun : moon}
-            </button>
+            <div>
+                <button
+                    type="button"
+                    onClick={handleThemeSwitch}
+                    className=" right-5 top-5 fixed p-2 z-10  bg-violet-600 dark:bg-orange-500 text-lg p-1 rounded-md"
+                >
+                    {theme === "dark" ? sun : moon}
+                </button>
+            </div>
 
             <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
                 <div className="max-w-5xl w-11/12 mx-auto">
