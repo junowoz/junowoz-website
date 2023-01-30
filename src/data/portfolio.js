@@ -17,7 +17,7 @@ export default [
         title: "Blog",
         imgUrl: "assets/blog.png",
         stack: ["NextJS", "TailwindCss", "Markdown"],
-        link: "https://youtu.be/A8eegxL82PI",
+        link: "https://blog-two-pink-30.vercel.app/",
         repo: "https://github.com/junowoz/blog",
     },
     {
