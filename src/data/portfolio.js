@@ -10,7 +10,7 @@ export default [
         title: "ChatGPT Clone",
         imgUrl: "assets/chatgpt-clone.png",
         stack: ["React", "Tailwind", "Vite"],
-        link: "https://blog-two-pink-30.vercel.app/",
+        link: "https://vercel.com/junowoz/chatgpt-clone",
         repo: "https://github.com/junowoz/chatgpt-clone",
     },
     {
@@ -19,6 +19,13 @@ export default [
         stack: ["NextJS", "TailwindCss", "Markdown"],
         link: "https://blog-two-pink-30.vercel.app/",
         repo: "https://github.com/junowoz/blog",
+    },
+    {
+        title: "Vidi",
+        imgUrl: "assets/vidi.png",
+        stack: ["Vue"],
+        link: "https://vidi-vue.vercel.app/",
+        repo: "https://github.com/junowoz/vidi-vue",
     },
     {
         title: "Solidity Fundamentals Tutorial",
