@@ -10,7 +10,7 @@ export default [
         title: "ChatGPT Clone",
         imgUrl: "assets/chatgpt-clone.png",
         stack: ["React", "Tailwind", "Vite"],
-        link: "https://thehackershideout.com",
+        link: "https://blog-two-pink-30.vercel.app/",
         repo: "https://github.com/junowoz/chatgpt-clone",
     },
     {
@@ -18,7 +18,7 @@ export default [
         imgUrl: "assets/blog.png",
         stack: ["NextJS", "TailwindCss", "Markdown"],
         link: "https://youtu.be/A8eegxL82PI",
-        repo: "https://github.com/tu-usuario/weather-app",
+        repo: "https://github.com/junowoz/blog,
     },
     {
         title: "Solidity Fundamentals Tutorial",
