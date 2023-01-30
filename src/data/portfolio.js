@@ -18,7 +18,7 @@ export default [
         imgUrl: "assets/blog.png",
         stack: ["NextJS", "TailwindCss", "Markdown"],
         link: "https://youtu.be/A8eegxL82PI",
-        repo: "https://github.com/junowoz/blog,
+        repo: "https://github.com/junowoz/blog",
     },
     {
         title: "Solidity Fundamentals Tutorial",
