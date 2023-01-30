@@ -2,7 +2,7 @@ export default [
     {
         year: "2023",
         title: "Software Developer",
-        company: "Recycling",
+        company: "Re-Cycling",
         duration: "Feb 2023 - Present",
         details: "",
     },
