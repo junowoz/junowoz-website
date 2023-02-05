@@ -36,16 +36,18 @@ function Portfolio() {
                                         Code
                                     </span>
                                 </a>
-                                <a
-                                    href={project.link}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="inline-block items-center px-3 py-2 border-2 border-stone-900 dark:border-white rounded-md hover:bg-stone-900 dark:hover:bg-white hover:text-white dark:hover:text-stone-900 transition-colors duration-200 ease-in-out"
-                                >
-                                    <span className="font-medium dark:text-white">
-                                        Live
-                                    </span>
-                                </a>
+                                {project.link && (
+                                    <a
+                                        href={project.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-block items-center px-3 py-2 border-2 border-stone-900 dark:border-white rounded-md hover:bg-stone-900 dark:hover:bg-white hover:text-white dark:hover:text-stone-900 transition-colors duration-200 ease-in-out"
+                                    >
+                                        <span className="font-medium dark:text-white">
+                                            Live
+                                        </span>
+                                    </a>
+                                )}
                             </div>
                         </div>
                     </div>
