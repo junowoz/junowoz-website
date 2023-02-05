@@ -1,9 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSquareTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faBlogger, faSquareTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faBlog, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
     const [theme, setTheme] = React.useState("light");
@@ -15,7 +15,7 @@ function Contact() {
             }`}
         >
             <a
-                href="resume_en.pdf"
+                href="https://gitconnected.com/junowoz/resume"
                 target="_blank"
                 className="py-3 px-4 bg-gray-500 hover:bg-orange-600 text-white font-bold rounded transition duration-300 ease-in-out transform hover:scale-105"
             >
@@ -40,6 +40,13 @@ function Contact() {
                 className="p-1 inline-flex text-xl"
             >
                 <FontAwesomeIcon icon={faSquareTwitter} className="fa-2xl" />
+            </a>
+            <a
+                href="https://junowoz.gitbook.io/blog/"
+                target="_blank"
+                className="p-1 inline-flex text-xl"
+            >
+                <FontAwesomeIcon icon={faBlogger} className="fa-2xl" />
             </a>
             <a
                 href="mailto:junogouvea@gmail.com"
