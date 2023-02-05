@@ -34,4 +34,11 @@ export default [
         link: "https://github.com/junowoz/solidity",
         repo: "https://github.com/junowoz/solidity/blob/main/0_Solidity_Fundamentals.sol",
     },
+    {
+        title: "Landing Page in Wordpress",
+        imgUrl: "assets/wordpress.png",
+        stack: ["Wordpress"],
+        link: "",
+        repo: "https://ambisense.net/heat-pumps/",
+    },
 ];
