@@ -26,16 +26,18 @@ function Portfolio() {
                             </p>
 
                             <div className="flex flex-wrap gap-2 flex-row items-center justify-start mt-4">
-                                <a
-                                    href={project.repo}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="inline-block items-center px-3 py-2 border-2 border-stone-900 dark:border-white rounded-md hover:bg-stone-900 dark:hover:bg-white hover:text-white dark:hover:text-stone-900 transition-colors duration-200 ease-in-out"
-                                >
-                                    <span className="font-medium dark:text-white">
-                                        Code
-                                    </span>
-                                </a>
+                                {project.repo && (
+                                    <a
+                                        href={project.repo}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-block items-center px-3 py-2 border-2 border-stone-900 dark:border-white rounded-md hover:bg-stone-900 dark:hover:bg-white hover:text-white dark:hover:text-stone-900 transition-colors duration-200 ease-in-out"
+                                    >
+                                        <span className="font-medium dark:text-white">
+                                            Code
+                                        </span>
+                                    </a>
+                                )}
                                 {project.link && (
                                     <a
                                         href={project.link}
