@@ -1,7 +1,7 @@
 # Table of contents
 
-* [🌐 <- Home](https://junowoz.github.io/portfolio/)
-* [💭 Content](README.md)
+* [<- Home](https://junowoz.github.io/portfolio/)
+* [🌐 Blog - Topics](README.md)
 
 ## 📑 Topics
 

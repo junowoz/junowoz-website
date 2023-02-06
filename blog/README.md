@@ -1,5 +1,15 @@
-# 💭 Table of Contents
+# 🌐 Blog - Topics
 
-- [Economics](chapter-1.md)
-- [Chapter 2: [Subtopic 1]](chapter-2.md)
-- [Chapter 3: [Subtopic 2]](chapter-3.md)
+
+
+{% content-ref url="topics/web3/" %}
+[web3](topics/web3/)
+{% endcontent-ref %}
+
+{% content-ref url="topics/economics/" %}
+[economics](topics/economics/)
+{% endcontent-ref %}
+
+{% content-ref url="topics/espiritismo/" %}
+[espiritismo](topics/espiritismo/)
+{% endcontent-ref %}
