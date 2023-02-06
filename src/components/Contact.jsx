@@ -35,18 +35,18 @@ function Contact() {
                 <FontAwesomeIcon icon={faLinkedin} className="fa-2xl" />
             </a>
             <a
-                href="https://twitter.com/junow0z"
-                target="_blank"
-                className="p-1 inline-flex text-xl"
-            >
-                <FontAwesomeIcon icon={faSquareTwitter} className="fa-2xl" />
-            </a>
-            <a
                 href="https://junowoz.gitbook.io/blog/"
                 target="_blank"
                 className="p-1 inline-flex text-xl"
             >
                 <FontAwesomeIcon icon={faBlogger} className="fa-2xl" />
+            </a>
+            <a
+                href="https://twitter.com/junow0z"
+                target="_blank"
+                className="p-1 inline-flex text-xl"
+            >
+                <FontAwesomeIcon icon={faSquareTwitter} className="fa-2xl" />
             </a>
         </div>
     );
