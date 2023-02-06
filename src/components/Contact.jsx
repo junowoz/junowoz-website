@@ -48,12 +48,6 @@ function Contact() {
             >
                 <FontAwesomeIcon icon={faBlogger} className="fa-2xl" />
             </a>
-            <a
-                href="mailto:junogouvea@gmail.com"
-                className="p-1 inline-flex text-xl"
-            >
-                <FontAwesomeIcon icon={faEnvelope} className="fa-2xl" />
-            </a>
         </div>
     );
 }
