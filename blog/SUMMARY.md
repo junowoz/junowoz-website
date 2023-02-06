@@ -1,7 +1,7 @@
 # Table of contents
 
 * [<- Home](https://junowoz.github.io/portfolio/)
-* [Blog](README.md)
+* [Hyperuranion Blog](README.md)
 
 ## 📑 Topics
 
