@@ -6,8 +6,8 @@
 ## 📑 Topics
 
 * [📶 Web3](topics/web3/README.md)
-  * [1](topics/web3/1.md)
-  * [2](topics/web3/2.md)
+  * [1rrrrreeeweq](topics/web3/1.md)
+  * [2qerqewrqer](topics/web3/2.md)
 * [🏦 Economics](topics/economics/README.md)
   * [1](topics/economics/1.md)
   * [2](topics/economics/2.md)
