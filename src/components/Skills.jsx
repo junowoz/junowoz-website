@@ -23,7 +23,7 @@ function Skills() {
                     <Title>Skills</Title>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         {skills.map((skill) => (
-                            <button className="inline-block items-center px-3 py-2 border-2 border-stone-900 dark:border-white rounded-md hover:bg-stone-900 dark:hover:bg-white hover:text-white dark:hover:text-stone-900">
+                            <button className="inline-block items-center px-3 py-2 border-2 border-stone-900 dark:border-white rounded-md ">
                                 <span className="font-medium">
                                     {skill.name}
                                 </span>
