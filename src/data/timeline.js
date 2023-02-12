@@ -1,10 +1,11 @@
 export default [
     {
         year: "2023",
-        title: "Software Developer",
+        title: "Front-End Engineer",
         company: "Re-Cycling",
         duration: "Feb 2023 - Present",
-        details: "",
+        details:
+            "• As a Front-End Developer at Re-Cycling, I use tools such as React, Nextjs, Zustand, and React-Bootstrap. I'm also responsible for developing and optimizing user-facing features, creating and maintaining reusable code, and ensuring the best performance, quality, and responsiveness of the online marketplace.",
     },
     {
         year: "2022",
