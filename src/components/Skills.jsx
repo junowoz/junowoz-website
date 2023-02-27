@@ -24,6 +24,7 @@ function Skills() {
                     <div className="grid grid-cols-3 md:grid-cols-3 gap-4">
                         {skills.map((skill, index) => (
                             <button
+                                disabled
                                 key={index}
                                 className="items-center px-3 py-2 rounded-md bg-gray-300 text-gray-900 dark:bg-gray-600 dark:text-gray-100 "
                             >
