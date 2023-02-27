@@ -11,13 +11,18 @@ function Portfolio() {
                         key={index}
                         className="border-2 border-neutral-300 dark:border-neutral-600 bg-neutral-100 dark:bg-neutral-800 rounded-md overflow-hidden"
                     >
-                        <img
-                            src={project.imgUrl}
-                            key={index}
-                            alt="portfolio"
-                            className="w-full h-36 md:h-48 object-cover cursor-pointer"
-                        />
-
+                        <a
+                            href={project.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src={project.imgUrl}
+                                key={index}
+                                alt="portfolio"
+                                className="w-full h-36 md:h-48 object-cover cursor-pointer"
+                            />
+                        </a>
                         <div className="w-full p-4">
                             <h3 className="text-lg md:text-xl dark:text-white mb-2 md:mb-3 font-semibold ">
                                 {project.title}
