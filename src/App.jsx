@@ -8,7 +8,23 @@ import Skills from "./components/Skills";
 
 function App() {
     const [theme, setTheme] = useState(null);
+    const [isThemeSwitchVisible, setIsThemeSwitchVisible] = useState(true);
 
+    useEffect(() => {
+        function handleScroll() {
+            const threshold = window.innerHeight / 6;
+            const isBelowThreshold = window.pageYOffset > threshold;
+            console.log(isBelowThreshold); // add this line to check the value of isBelowThreshold
+            setIsThemeSwitchVisible(!isBelowThreshold);
+        }
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
+    //////////////////////////////////////////////////////////////////////////////////////////
+    //Theme Switch on hours
     useEffect(() => {
         if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
             setTheme("dark");
@@ -22,6 +38,7 @@ function App() {
         }
     }, []);
 
+    //Theme Switch on click
     const handleThemeSwitch = () => {
         setTheme(theme === "dark" ? "light" : "dark");
     };
@@ -74,7 +91,11 @@ function App() {
                 <button
                     type="button"
                     onClick={handleThemeSwitch}
-                    className=" right-5 top-5 fixed z-10 bg-violet-600 dark:bg-orange-600 dark:text-white text-lg p-1 rounded-md"
+                    className={`fixed top-10 right-5 transform -translate-y-1/2 z-10 bg-violet-600 dark:bg-orange-600 dark:text-white text-lg p-1 rounded-md transition-all duration-500 ${
+                        isThemeSwitchVisible
+                            ? "translate-x-0"
+                            : "translate-x-60"
+                    }`}
                 >
                     {theme === "dark" ? sun : moon}
                 </button>
