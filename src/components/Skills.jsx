@@ -21,10 +21,13 @@ function Skills() {
             <div className="flex flex-col md:flex-row justify-center my-20">
                 <div className="md:w-7/12">
                     <Title>Skills</Title>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        {skills.map((skill) => (
-                            <button className="inline-block items-center px-3 py-2 border-2 border-stone-900 dark:border-white rounded-md ">
-                                <span className="font-medium">
+                    <div className="grid grid-cols-3 md:grid-cols-3 gap-4">
+                        {skills.map((skill, index) => (
+                            <button
+                                key={index}
+                                className="items-center px-3 py-2 rounded-md bg-gray-300 text-gray-900 dark:bg-gray-600 dark:text-gray-100 "
+                            >
+                                <span key={index} className="font-semibold">
                                     {skill.name}
                                 </span>
                             </button>

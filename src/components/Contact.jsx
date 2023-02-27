@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBlogger, faSquareTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faBlog, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
     const [theme, setTheme] = React.useState("light");
@@ -17,19 +16,23 @@ function Contact() {
             <a
                 href="https://gitconnected.com/junowoz/resume"
                 target="_blank"
-                className="py-3 px-4 bg-gray-500 hover:bg-orange-600 text-white font-bold rounded transition duration-300 ease-in-out transform hover:scale-105"
+                rel="noopener noreferrer"
+                className="py-3 px-4 dark:bg-gray-600 bg-gray-300 dark:hover:bg-orange-600 hover:bg-purple-600 hover:text-white dark:text-white text-gray-900 font-bold rounded transition duration-600 ease-in-out transform hover:scale-105"
             >
                 Resume
             </a>
             <a
                 href="https://github.com/junowoz"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="p-1 inline-flex text-xl"
             >
                 <FontAwesomeIcon icon={faSquareGithub} className="fa-2xl" />
             </a>
             <a
                 href="https://linkedin.com/in/juanjosegouveac"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-1 inline-flex text-xl"
             >
                 <FontAwesomeIcon icon={faLinkedin} className="fa-2xl" />
@@ -37,6 +40,7 @@ function Contact() {
             <a
                 href="https://junowoz.gitbook.io/blog/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="p-1 inline-flex text-xl"
             >
                 <FontAwesomeIcon icon={faBlogger} className="fa-2xl" />
@@ -44,6 +48,7 @@ function Contact() {
             <a
                 href="https://twitter.com/junow0z"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="p-1 inline-flex text-xl"
             >
                 <FontAwesomeIcon icon={faSquareTwitter} className="fa-2xl" />
