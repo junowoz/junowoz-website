@@ -7,10 +7,6 @@ description: >-
 
 # Hyperuranion Blog
 
-{% content-ref url="topics/consciousness.md" %}
-[consciousness.md](topics/consciousness.md)
-{% endcontent-ref %}
-
 {% content-ref url="topics/economics/" %}
 [economics](topics/economics/)
 {% endcontent-ref %}
@@ -19,12 +15,12 @@ description: >-
 [espiritismo](topics/espiritismo/)
 {% endcontent-ref %}
 
-{% content-ref url="topics/empreendedorismo.md" %}
-[empreendedorismo.md](topics/empreendedorismo.md)
+{% content-ref url="topics/empreendedorismo/" %}
+[empreendedorismo](topics/empreendedorismo/)
 {% endcontent-ref %}
 
-{% content-ref url="topics/engenharia.md" %}
-[engenharia.md](topics/engenharia.md)
+{% content-ref url="topics/engenharia/" %}
+[engenharia](topics/engenharia/)
 {% endcontent-ref %}
 
 {% content-ref url="topics/web3/" %}
@@ -34,4 +30,3 @@ description: >-
 {% content-ref url="topics/junowoz/" %}
 [junowoz](topics/junowoz/)
 {% endcontent-ref %}
-

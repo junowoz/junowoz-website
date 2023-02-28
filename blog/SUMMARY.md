@@ -5,7 +5,6 @@
 
 ## Topics
 
-* [🧠 Consciousness](topics/consciousness.md)
 * [🏦 Economía](topics/economics/README.md)
   * [Fundamentos da Diversificação](topics/economics/fundamentos-da-diversificacao.md)
   * [Seu Primeiro Negócio](topics/economics/seu-primeiro-negocio.md)
