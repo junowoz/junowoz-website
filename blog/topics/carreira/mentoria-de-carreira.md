@@ -1,6 +1,4 @@
 
-[]: # Path: blog\topics\carreira\mentoria_de_carreira.md
-
 # Mentoria de carreira Para Desenvolvedores
 
 Academia ou Mercado
