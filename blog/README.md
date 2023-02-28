@@ -7,6 +7,10 @@ description: >-
 
 # Hyperuranion Blog
 
+{% content-ref url="topics/carreira/" %}
+[carreira](topics/carreira/)
+{% endcontent-ref %}
+
 {% content-ref url="topics/economics/" %}
 [economics](topics/economics/)
 {% endcontent-ref %}
