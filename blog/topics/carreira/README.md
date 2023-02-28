@@ -1,3 +1,3 @@
-# 🏎️ Carreira
+# ☕ Carreira
 
 ...
