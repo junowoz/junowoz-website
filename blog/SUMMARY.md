@@ -5,7 +5,7 @@
 
 ## Topics
 
-* [🏎️ Carreira](topics/carreira/README.md)
+* [☕ Carreira](topics/carreira/README.md)
   * [Mentoria de Carreira](topics/carreira/mentoria-de-carreira.md)
 * [🏦 Economía](topics/economics/README.md)
   * [Fundamentos da Diversificação](topics/economics/fundamentos-da-diversificacao.md)
