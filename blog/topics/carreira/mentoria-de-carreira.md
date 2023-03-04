@@ -1,10 +1,15 @@
+# Mentoria de carreira Para Desenvolvedores: Em que me especializar? como entrar no mercado?
 
-# Mentoria de carreira Para Desenvolvedores
+1. ## Mercado, Academia, ou Empreender?
 
-Academia ou Mercado
+Na palestra de hoje vou focar em 1 destes 3 aspectos: Mercado. A primeira coisa a saber é que vocês têm esses 3 caminhos, de forma muito simplificada. Quem gosta e tem interesse em se adentrar no mundo acadêmico, tudo o que eu vou falar aqui, serve, adicionando o fato de que deverá ter amor por fazer pesquisas, postar artigos, e se envolver em processos da faculdade. E quem tiver interesse em empreender, tudo o que vou explicar será ainda mais de utilidade, adicionando o fato de que deverá encontrar um boa dor para resolver, validar o a dor com um público alvo, e começar a criar uma solução.
+
+Pessoalmente gosto muito de empreendedorismo, então se quiserem uma outra palestra somente focada em empreendedorismo em nossa área, avisem à prof. Aline, que ela se comunica comigo e eu preparo algo pra vocês.
+2. ## Em que me Especializar?
+git commit -m 'mentoria' --date yesterday
+
 - Academia -> Pesquisa, Tem um mundo
 - Mercado -> Dev ou Eletronico?
-- Empreendedor -> Liberdade, mas tem que ter um plano B
 
 Areas da carreira:
 Salarios podem ver no glassdoor
