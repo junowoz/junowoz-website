@@ -1,18 +1,25 @@
 export default [
     {
+        title: "E-Commerce - Re-Cycling",
+        imgUrl: "assets/recycling.png",
+        stack: ["NextJS", "React", "JavaScript"],
+        link: "https://www.recyclingbikes.co/",
+        repo: "https://github.com/junowoz/recycling-web",
+    },
+    {
         title: "Weather App",
         imgUrl: "assets/weather-react.png",
         stack: ["React", "JavaScript", "GeoDB API"],
         link: "https://weather-react-psi.vercel.app/",
         repo: "https://github.com/junowoz/weather-react",
     },
-    {
-        title: "ChatGPT Clone",
-        imgUrl: "assets/chatgpt-clone.png",
-        stack: ["React", "Tailwind", "Vite"],
-        link: "https://vercel.com/junowoz/chatgpt-clone",
-        repo: "https://github.com/junowoz/chatgpt-clone",
-    },
+    // {
+    //     title: "ChatGPT Clone",
+    //     imgUrl: "assets/chatgpt-clone.png",
+    //     stack: ["React", "Tailwind", "Vite"],
+    //     link: "https://vercel.com/junowoz/chatgpt-clone",
+    //     repo: "https://github.com/junowoz/chatgpt-clone",
+    // },
     {
         title: "Blog",
         imgUrl: "assets/blog.png",
