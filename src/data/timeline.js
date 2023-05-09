@@ -2,10 +2,10 @@ export default [
   {
     year: "2023",
     title: "Founder",
-    company: "EasySpot | LinkUp",
+    company: "LinkUp",
     duration: "2023 - Present",
     details:
-      "• I founded EasySpot and LinkUp as a result of my experience at Inovatec. EasySpot, utilizing IoR (Internet of Recognition) technology such as virtualized IoT sensors through machine vision, focuses on helping car users easily find parking spots in malls with a mobile app that indicates available parking spaces. LinkUp is an innovative tool for professionals who want to keep their resume, personal website, LinkedIn, and GitHub profiles up-to-date without manually updating each platform. With this app, you input your information once, and it will automatically update across all your relevant profiles.",
+      "• LinkUp is an innovative tool for professionals who want to keep their resume, personal website, LinkedIn, and GitHub profiles up-to-date without manually updating each platform. With this app, you input your information once, and it will automatically update across all your relevant profiles.",
   },
   {
     year: "2022",
