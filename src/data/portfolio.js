@@ -7,7 +7,7 @@ export default [
     repo: "https://github.com/inovatec-fametro/inovatec",
   },
   {
-    title: "E-Commerce - Re-Cycling",
+    title: "E-Commerce",
     imgUrl: "assets/recycling.png",
     stack: ["NextJS", "React", "JavaScript"],
     link: "https://www.recyclingbikes.co/",
