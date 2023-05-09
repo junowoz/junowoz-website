@@ -5,10 +5,11 @@
     "type": "module",
     "homepage": "https://junowoz.github.io/portfolio/",
     "scripts": {
+        "preinstall": "npx only-allow pnpm", 
         "dev": "vite",
         "build": "vite build",
         "preview": "vite preview",
-        "predeploy": "npm run build",
+        "predeploy": "pnpm run build",
         "deploy": "gh-pages -d dist"
     },
     "dependencies": {
