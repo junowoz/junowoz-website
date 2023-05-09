@@ -15,7 +15,7 @@ function Intro() {
                 Juan José Gouvêa
             </p>
             <p className="text-3xl md:text-3xl font-medium">
-                Software Developer
+                Software Engineer
             </p>
         </div>
     );
