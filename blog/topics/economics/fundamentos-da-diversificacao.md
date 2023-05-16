@@ -14,28 +14,28 @@
 * Quanto mais você perde, mais difícil é recuperar o capital. Se você tem 100 reais e perde 75, sobram 25, e você precisará de uma rentabilidade de 300% (x4) para voltar ao patamar inicial.
 * Diversificação não é escudo, é espada!
 
-**As 3 Camadas do Risco**
+## As 3 Camadas do Risco
 
-## 1. Intra-ativo
+### 1. Intra-ativo
 
-*   Não adianta ter só uma ação. Tendo uma carteira diversificada, ou seja, tendo mais ovos, tenho mais segurança, porque diversifico meu risco, mas cuidado, diversificar demais pode se tornar em algo que não faz real diferença e leva à pulverização.
+* Não adianta ter só uma ação. Tendo uma carteira diversificada, ou seja, tendo mais ovos, tenho mais segurança, porque diversifico meu risco, mas cuidado, diversificar demais pode se tornar em algo que não faz real diferença e leva à pulverização.
 
-    #### Risco Não-sistêmico e Sistêmico
+#### Risco Não-sistêmico e Sistêmico
 
-    * **Não-sistêmico**: Ele está atrelado a um ativo específico. Riscos intrínsecos a um setor. Não adianta também ter várias ações de um mesmo setor. Na minha primeira camada de diversificação eu deveria ter **segmentos diferentes.** A ideia aqui é buscar a melhor empresa de cada setor. Quanto mais setores tenho, mais diminuo meu risco. Aumentar ações = Aumentar segurança.
-    * **Sistêmico:** Risco não diversificável, onde não depende de um segmento específico, mas de questões macros
+* **Não-sistêmico**: Ele está atrelado a um ativo específico. Riscos intrínsecos a um setor. Não adianta também ter várias ações de um mesmo setor. Na minha primeira camada de diversificação eu deveria ter **segmentos diferentes.** A ideia aqui é buscar a melhor empresa de cada setor. Quanto mais setores tenho, mais diminuo meu risco. Aumentar ações = Aumentar segurança.
+* **Sistêmico:** Risco não diversificável, onde não depende de um segmento específico, mas de questões macros
 
-## 2. Classes de Ativos
+### 2. Classes de Ativos
 
 * Não necessária mente você precisa escolher as melhor obra de arte, mas talvez ter uma carteira diversificada de obras, e as poucas que se multiplicarem acima da média, vão justificar as outras e fazer a verdadeira diferença. Assim como empreender, você precisa dar certo pra caramba uma só vez para enriquecer de fato.
 * Preciso diversificar meu patrimônio também entre **classes de ativos.** Escolher vários ativos diferentes dentro de uma única classe
 
-## 3. Intra-Países
+### 3. Intra-Países
 
 * Diversificar traz segurança e opcionalidade. Diversificar também é sobre multiplicação, e se expor a esses pequenos Spikes.
 * Cada 5 anos aproximadamente temos uma crise, então, como diversificar o risco sistêmico? Estar preparado antes de acontecer, a través da diversificação e o rebalanceamento. Podemos, sim, minimizar o impacto de um risco sistêmico, porque normalmente ele se representa por uma caída abrupta, e depois uma retomada rápida, então, por exemplo, na pandemia, enquanto as ações caiam aqui, quem tinha parte do patrimônio diversificado e investido em dólar, sentiu menos forte essa caída.
 
-**Correlação**
+## Correlação
 
 É uma medida estatística para medir como dois ativos se movimentam, um em ralação ao outro.
 
@@ -53,8 +53,7 @@
 
 Vamos fazer a correlação entre o DÓLAR/BR e a BOLSA(IBOVESPA). Queremos saber a correlação entre um ativo e o outro.
 
-* \=CORREL(MATRIZ1; MATRIZ2) - Correlação dos dois ativos.
-*   Lembrando que:
+* Correlação dos dois ativos.
 
     | Nível de Correlação | O que Significa           | Como Interpretar                             |
     | ------------------- | ------------------------- | -------------------------------------------- |
@@ -66,11 +65,12 @@ Vamos fazer a correlação entre o DÓLAR/BR e a BOLSA(IBOVESPA). Queremos saber
 
 Uma forte **correlação negativa,** indica um movimento inversamente proporcional.
 
-**Comparando Risco e Rentabilidade**
+### Comparando Risco e Rentabilidade
 
 * Não olhe só para rentabilidade. Você **DEVE** analisar o risco, ou seja, procurar ativos com a melhor relação risco-retorno. Resumindo: olhe sempre para o risco, a fim de diminuir o número de surpresas negativas na jornada de investimentos.
 
-```
+```markdown
+
  **ÍNDICE DE SHARP:**
 
 30% (Retorno) - 4% (Taxa Livre de Risco)
@@ -88,11 +88,11 @@ vs
 * Podemos concluir que o melhor caso aqui, é a opção 2, que nos fornece um retorno maior por cada unidade de risco, mesmo tendo uma volatilidade menor.
 * Um conselho: assim como você pode ganhar muito, pode perder tudo. Nunca olhe para a rentabilidade de forma isolada.
 
-**Diversificação nas Crises**
+### Diversificação nas Crises
 
 Crises são momentos propícios para aproveitar grandes oportunidades no mercado financeiro. As crises são muito fortes porque são inesperadas. Sempre tem crises, e não adianta você estar preparado, se você é pego de surpresa… então, diversificando a carteira, você consegue de fato mitigar as perdas durante uma crise. Transforme crises em oportunidades pela aplicação metódica da diversificação. Escolha bons ativos.
 
-**Método A.R.C.A**
+### Método A.R.C.A
 
 O objetivo é se preparar para um grande dilúvio, construindo a ARCA.
 
@@ -109,20 +109,20 @@ O objetivo é se preparar para um grande dilúvio, construindo a ARCA.
 
 Quanto mais tempo algo acontece e existe, mais tempo isso tende a continuar acontecendo e existindo.
 
-**Rebalanceamento**
+## Rebalanceamento
 
-Diversificação e rebalanceamento, são uma combinação perfeita. A ideia é: quando um dos 4 setores diminuir durante uma crise, rabalancear, alocando recursos do que teve mais lucro, no que diminuiu, para manter a paridade entre os 4 setores da ARCA.
+Diversificação e rebalanceamento, são uma combinação perfeita. A ideia é: quando um dos 4 setores diminuir durante uma crise, rebalancear, alocando recursos do que teve mais lucro, no que diminuiu, para manter a paridade entre os 4 setores da ARCA.
 
 * Caixa vai ajudar a comprar ativos mais baratos
 * Real Estate vai gerar renda mensal para realocar.
 * Ativos Internacionais vai blindar do dólar e câmbio.
 
-## Formas de Rebalancear
+### Formas de Rebalancear
 
 1. Rebalancear com nosso próprio salário, com o reinvestimento do meu dinheiro, comprando a classe de ativos que menos tenho.
 2. Rebalancear com os dividendos, para comprar sempre a classe de ativos que menos tenho.
 
-## Como otimizar o rebalanceamento?
+### Como otimizar o rebalanceamento?
 
 O rebalanceamento obrigatório vem quando temos mais de 40% de algum ativo na carteira. É importante ter um dólar e um piso. A ideia é perder pouco.
 
@@ -130,11 +130,11 @@ Os índices são importantes porque nos dão uma referência. O IBOVESPA represe
 
 * Facilmente podemos montar a ARCA com 4 ativos. Ou seja, com 4 ETFs de cada setor.
 
-**Como balancear sua carteira de investimentos?**
+### Como balancear sua carteira de investimentos?
 
 💡 \[Carteira Holder - Site]\(https://carteiraholder.com.br/)
 
-**Convexidade**
+## Convexidade
 
 Sempre tenha uma parte da ARCA para ter uma cerca convexidade, ou seja, se expor a algumas opcionalidades, e algumas coisas que possam mudar em nossa economia, já que não sabemos o que o futuro pode nos esperar, como foi no caso do Bitcoin. Por isso, nunca tenha uma carteira de investimentos concava, mas uma convexa!
 
@@ -142,7 +142,7 @@ Sempre tenha uma parte da ARCA para ter uma cerca convexidade, ou seja, se expor
 
 Podemos montar uma carteira simples, com ETFs de 3 formas.
 
-## OPÇÃO A: SEGURO
+### OPÇÃO A: SEGURO
 
 | ATIVO    | PORCENTAGEM |
 | -------- | ----------- |
@@ -151,7 +151,7 @@ Podemos montar uma carteira simples, com ETFs de 3 formas.
 | T. SELIC | 25%         |
 | XIFIX11  | 25%         |
 
-## OPÇÃO B: MODERADO
+### OPÇÃO B: MODERADO
 
 | ATIVO    | PORCENTAGEM |
 | -------- | ----------- |
@@ -161,7 +161,7 @@ Podemos montar uma carteira simples, com ETFs de 3 formas.
 | XIFIX11  | 25%         |
 | SMALL11  | 12.5%       |
 
-## OPÇÃO C: AGRESSIVO
+### OPÇÃO C: AGRESSIVO
 
 | ATIVO    | PORCENTAGEM |
 | -------- | ----------- |
@@ -172,7 +172,7 @@ Podemos montar uma carteira simples, com ETFs de 3 formas.
 | SMALL11  | 12.5%       |
 | HASH11   | 5%          |
 
-## Analisando ETFs:
+## Analisando ETFs
 
 * **BOVA11:** É cuidada pela BlackRock
   * Tem 91 ativos diferentes, é completamente ESG, possui uma taxa de administração de 0.1% ao ano.
@@ -187,7 +187,7 @@ Podemos montar uma carteira simples, com ETFs de 3 formas.
 
 > Seria interessante também, começar a escolher os melhores ativos dentro de cada ETF, e investir individualmente.
 
-**Princípios**
+## Princípios
 
 Não se expor ao risco da ruína: o risco de ser tirado do jogo.
 
@@ -198,22 +198,20 @@ Não fira princípios:
    * Medo te tira a coragem, vontade de agir. O não fazer.
    * Impaciência, te faz tomar decisões sem ponderar o suficiente antes.
 2. Humildade: reconhecer que você é bom, mas que pode melhorar:
-   1. Todos os investidores estudam todos os días. Tenha humildade para recomendar que você sempre tem algo para aprender.
+   1. Todos os investidores estudam todos os dias. Tenha humildade para recomendar que você sempre tem algo para aprender.
 3. A armadilha do conhecimento:
    1. Você cresce, acha que sabe muito, mas na verdade não sabe nada. O que libera ao arrogante é a humildade.
 4. HEVEL:
-   1. Tudo é hevel, tudo é uma idealização. Mesmo que você pratique sempre o bem, e tudo esteja ao seu favor, coisas ruins podem acontecer. Assim como fazer tudo errado pode levar a coisas muitas boas, então HEVEL fala muito da injustiça em geral.
+   1. Tudo é "hevel", tudo é uma idealização. Mesmo que você pratique sempre o bem, e tudo esteja ao seu favor, coisas ruins podem acontecer. Assim como fazer tudo errado pode levar a coisas muitas boas, então HEVEL fala muito da injustiça em geral.
    2. Não leve a vida muito a serio.
    3. Não tema que sua vida termine, mas tema que sua vida nunca tenha começado.
 
-***
+## Resumo
 
-**Resumo**
-
-**Santo Graal dos Investimentos**
+> Santo Graal dos Investimentos
 
 1. **Diversificar** o patrimônio, passando pelas 3 camadas de diversificação.
 2. Encontrar ativos **descorrelacionados**, ou com correlação negativa.
 3. Mas que sejam **convexos.**
 
-O que buscamos é rentabilidade em relação ao risco. Quando você compra boas empresas, a sorte joga do seu lado
+O que buscamos é rentabilidade em relação ao risco. Quando você compra boas empresas, a sorte joga do seu lado.

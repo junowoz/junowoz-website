@@ -2,11 +2,9 @@
 
 A Y Combinator é uma incubadora de empresas notável que oferece uma variedade de conselhos às startups, alguns táticos e pretendendo ser úteis no dia a dia, e outros mais fundamentais. Eles têm uma série de princípios orientadores que consideram essenciais para o sucesso de qualquer startup. Estes conselhos, sejam eles de senso comum ou contraintuitivos, têm o potencial de guiar a maioria das startups na direção certa.
 
-A Y Combinator insiste na importância de lançar produtos o mais rápido possível. A razão por trás disso é que o lançamento de produtos é a única maneira de entender completamente os problemas dos clientes e avaliar se o produto realmente atende às suas necessidades. Eles acreditam que lançar um produto, mesmo que medíocre, o mais rápido possível e, em seguida, interagir com os clientes e iterar é uma abordagem muito mais eficaz do que esperar para construir o "produto perfeito". Isso é válido desde que o produto forneça uma "quantum de utilidade" para os clientes, cujo valor supere quaisquer problemas que possam surgir devido às imperfeições do produto.
+Os conselheiros da YC insistem na importância de lançar produtos o mais rápido possível. A razão por trás disso é que o lançamento de produtos é a única maneira de entender completamente os problemas dos clientes e avaliar se o produto realmente atende às suas necessidades. Eles acreditam que lançar um produto, mesmo que medíocre, o mais rápido possível e, em seguida, interagir com os clientes e iterar é uma abordagem muito mais eficaz do que esperar para construir o "produto perfeito". Isso é válido desde que o produto forneça uma "quantum de utilidade" para os clientes, cujo valor supere quaisquer problemas que possam surgir devido às imperfeições do produto.
 
-A filosofia da Y Combinator é clara: aperfeiçoamento e melhoria são processos contínuos, e é melhor começar com um produto imperfeito do que esperar pela perfeição.
-
-Agora vamos aos conselhos essenciais:
+A filosofia é clara: aperfeiçoamento e melhoria são processos contínuos, e é melhor começar com um produto imperfeito do que esperar pela perfeição.
 
 ## Guia de bolso de conselhos essenciais da YC
 

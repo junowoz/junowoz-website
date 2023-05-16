@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Bem-vindos a esta palestra sobre mentoria de carreira para desenvolvedores, com foco em especialização e entrada no mercado de trabalho. Vamos explorar os possíveis caminhos que você pode seguir após a graduação e oferecer conselhos sobre como se preparar para esses caminhos.
+Bem-vindos a esta mentoria de carreira para desenvolvedores, com foco em especialização e entrada no mercado de trabalho. Vamos explorar os possíveis caminhos que você pode seguir após a graduação e oferecer conselhos sobre como se preparar para esses caminhos.
 
 ## 1. Possíveis Caminhos: Mercado, Academia, ou Empreendedorismo
 

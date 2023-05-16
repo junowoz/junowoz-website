@@ -3,10 +3,10 @@
 ## Sites e Blogs
 
 - [Startup Playbook](https://playbook.samaltman.com/) - Sam Altman
-- [Startup School](https://www.startupschool.org/)
+- [Startup School](https://www.startupschool.org/) - Y Combinator
 - [How to Create a Million-Dollar Business This Weekend](https://tim.blog/2011/09/24/how-to-create-a-million-dollar-business-this-weekend-examples-appsumo-mint-chihuahuas/) - The Blog of Author Tim Ferriss
 - [Why the Lean Start-Up Changes Everything](https://hbr.org/2013/05/why-the-lean-start-up-changes-everything) - hbr.org
-- [How to Start a Startup - YouTube Playlist](https://youtube.com/playlist?list=PL5q_lef6zVkaTY_cT1k7qFNF2TidHCe-1)
+- [How to Start a Startup - YouTube Playlist](https://youtube.com/playlist?list=PL5q_lef6zVkaTY_cT1k7qFNF2TidHCe-1) - Y Combinator
 
 ## Livros
 

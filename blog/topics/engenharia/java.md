@@ -1,6 +1,4 @@
-# ☕ Java
-
-## O que é Java?
+# Java
 
 Java é uma linguagem de programação popular e versátil, utilizada em uma ampla variedade de aplicações, desde desenvolvimento web até desenvolvimento de aplicativos móveis. Ela é conhecida por sua portabilidade, segurança e robustez.
 
@@ -20,7 +18,7 @@ public class HelloWorld {
 }
 ```
 
-Este é um programa Java básico que imprime a mensagem "Hello, World!" no console. Para executá-lo, você precisa compilar o código em bytecode Java e, em seguida, executá-lo. Abra o terminal, navegue até o diretório onde o arquivo` .java` está localizado e execute os seguintes comandos:
+Este é um programa Java básico que imprime a mensagem "Hello, World!" no console. Para executá-lo, você precisa compilar o código em bytecode Java e, em seguida, executá-lo. Abra o terminal, navegue até o diretório onde o arquivo`.java` está localizado e execute os seguintes comandos:
 
 ```bash
 javac HelloWorld.java
@@ -94,8 +92,9 @@ System.out.println("Resultado da soma: " + resultado);
 Neste exemplo, criamos uma classe `Calculadora` com um método estático chamado `somar`, que recebe dois argumentos `a` e `b` e retorna a soma deles. Em seguida, chamamos o método `somar` passando os valores 5 e 3 como argumentos e armazenamos o resultado em uma variável. Por fim, imprimimos o resultado no console.
 
 ## Conclusão
+
 Este mini blog forneceu uma breve introdução à linguagem de programação Java, abordando conceitos básicos como configuração do ambiente, estruturas de controle, variáveis, tipos de dados, funções e métodos. Java é uma linguagem poderosa e versátil, e espero que você tenha adquirido uma compreensão básica para iniciar seus estudos nessa linguagem.
 
 ## Referências
 
-- [Java Tutorial](https://www.w3schools.com/java/)
+- [Java Tutorial - w3schools](https://www.w3schools.com/java/)

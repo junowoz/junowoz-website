@@ -1,8 +1,6 @@
 ---
 description: >-
-  Delve into the abstract world of ideas, encompassing a kaleidoscope of topics,
-  from the practicalities of economics and engineering, to the mysteries of
-  consciousness.
+  Delve into the abstract world of ideas, encompassing a kaleidoscope of topics.
 ---
 
 # Hyperuranion Blog

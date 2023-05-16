@@ -25,5 +25,3 @@ Após a leitura das obras básicas, há uma série de livros psicografados por d
 - **Série "André Luiz" (Francisco Cândido Xavier)**: Esta série de 16 livros traz uma visão detalhada da vida no mundo espiritual, com descrições sobre a reencarnação, o processo de desencarne e a vida após a morte.
 - **Série "Joanna de Ângelis" (Divaldo Franco)**: Joanna de Ângelis é uma das guias espirituais mais amadas do Brasil. Através do médium Divaldo Franco, ela oferece mensagens de amor e sabedoria para ajudar os indivíduos em sua jornada espiritual.
 - **Série "Emmanuel" (Francisco Cândido Xavier)**: Emmanuel é um espírito guia que, através do médium Chico Xavier, trouxe uma série de livros com ensinamentos sobre a moral cristã sob a perspectiva do Espiritismo.
-
-O Espiritismo é uma doutrina rica e complexa que oferece um olhar único sobre a vida, a morte e o que vem depois. Se você está interessado em aprender mais, esses livros são um excelente ponto de partida.

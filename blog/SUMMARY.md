@@ -1,9 +1,9 @@
 # Table of contents
 
-* [<- Home](https://junowoz.github.io/portfolio/)
+* [<- Portfolio](https://junowoz.github.io/portfolio/)
 * [Hyperuranion Blog](README.md)
 
-## Topics
+## Sumário
 
 * [🈺 Startups](topics/startups/README.md)
   * [Como criar uma Startup?](topics/startups/como-criar-uma-startup.md)
@@ -12,8 +12,8 @@
 * [🧠 Consciência](topics/consciência/README.md)
   * [Mentoria de Carreira para Desenvolvedores](topics/consciência/mentoria-de-carreira.md)  
   * [Produtividade](topics/consciência/produtividade.md)
-  * [Principios](topics/consciência/principios.md)
-* [🏦 Economía](topics/economics/README.md)
+  * [Princípios](topics/consciência/principios.md)
+* [🏦 Economia](topics/economics/README.md)
   * [Fundamentos da Diversificação](topics/economics/fundamentos-da-diversificacao.md)
   * [Criptomoedas](topics/economics/criptomoedas.md)
 * [⚙ Engenharia](topics/engenharia/README.md)
