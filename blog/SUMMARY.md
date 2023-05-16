@@ -3,7 +3,7 @@
 * [<- Portfolio](https://junowoz.github.io/portfolio/)
 * [Hyperuranion Blog](README.md)
 
-## Sumário
+## Topics
 
 * [🈺 Startups](topics/startups/README.md)
   * [Como criar uma Startup?](topics/startups/como-criar-uma-startup.md)
