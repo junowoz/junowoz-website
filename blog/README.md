@@ -7,30 +7,22 @@ description: >-
 
 # Hyperuranion Blog
 
-{% content-ref url="topics/carreira/" %}
-[carreira](topics/carreira/)
+{% content-ref url="topics/startups/" %}
+[startups](topics/startups/)
+{% endcontent-ref %}
+
+{% content-ref url="topics/consciência/" %}
+[consciência](topics/consciência/)
 {% endcontent-ref %}
 
 {% content-ref url="topics/economics/" %}
 [economics](topics/economics/)
 {% endcontent-ref %}
 
-{% content-ref url="topics/espiritismo/" %}
-[espiritismo](topics/espiritismo/)
-{% endcontent-ref %}
-
-{% content-ref url="topics/empreendedorismo/" %}
-[empreendedorismo](topics/empreendedorismo/)
-{% endcontent-ref %}
-
 {% content-ref url="topics/engenharia/" %}
 [engenharia](topics/engenharia/)
 {% endcontent-ref %}
 
-{% content-ref url="topics/web3/" %}
-[web3](topics/web3/)
-{% endcontent-ref %}
-
-{% content-ref url="topics/junowoz/" %}
-[junowoz](topics/junowoz/)
+{% content-ref url="topics/espiritismo/" %}
+[espiritismo](topics/espiritismo/)
 {% endcontent-ref %}
