@@ -50,7 +50,7 @@ export default [
   },
   {
     title: "Landing Page in Wordpress",
-    imgUrl: "assets/wordpress.png",
+    imgUrl: "assets/wordpress.jpeg",
     stack: ["Wordpress"],
     link: "https://ambisense.net/heat-pump-analytics/",
     repo: "",
