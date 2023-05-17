@@ -36,8 +36,6 @@ O crescimento composto, embora seja um conceito financeiro, também se aplica à
 - A tecnologia pode ser uma poderosa ferramenta para a produtividade, com uma variedade de ferramentas e aplicativos disponíveis para ajudar a organizar tarefas, gerenciar tempo e manter o foco.
 - Lembre-se de que a tecnologia é uma ferramenta, não uma solução; é preciso esforço humano para realizar o trabalho. Evite que a tecnologia se torne uma distração ou um substituto para o trabalho duro.
 
----
-
 ## Conclusão
 
 - A produtividade não é apenas sobre a quantidade de trabalho realizado, mas a qualidade e o impacto desse trabalho.

@@ -14,7 +14,7 @@ Uma série de 10 princípios que tento seguir no meu dia a dia.
 
 6. **Faça Perguntas Poderosas:** Concentre-se em fazer as perguntas certas. Perguntas poderosas podem abrir novos caminhos e perspectivas.
 
-7. **Tome Decisões Inteligentes:** Pense sobre a tarefa mais valiosa que você poderia fazer hoje para se aproximar de seus objetivos. Tome uma série de escolhas que tenham mais chance de levá-lo aonde você quer chegar. O futuro é constantemente alterado por nossas decisões.
+7. **Tome Decisões Inteligentes:** Pense sobre a tarefa mais valiosa que você poderia fazer hoje para se aproximar de seus objetivos. Tome uma série de escolhas que tenham mais chance de levá-lo onde você quer chegar. O futuro é constantemente alterado por nossas decisões.
 
 8. **Honre Seu Compromisso:** Mantenha-se fiel à sua palavra. Comprometa-se com o que promete, seja claro, objetivo e comprometido.
 

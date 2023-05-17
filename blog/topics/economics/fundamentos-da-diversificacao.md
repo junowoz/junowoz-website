@@ -71,7 +71,7 @@ Uma forte **correlação negativa,** indica um movimento inversamente proporcion
 
 ```markdown
 
- **ÍNDICE DE SHARP:**
+ ÍNDICE DE SHARP:
 
 30% (Retorno) - 4% (Taxa Livre de Risco)
 ------------------------------------------ = 2,6%
@@ -132,7 +132,7 @@ Os índices são importantes porque nos dão uma referência. O IBOVESPA represe
 
 ### Como balancear sua carteira de investimentos?
 
-💡 \[Carteira Holder - Site]\(https://carteiraholder.com.br/)
+💡 [Carteira Holder - Site](https://carteiraholder.com.br/)
 
 ## Convexidade
 
