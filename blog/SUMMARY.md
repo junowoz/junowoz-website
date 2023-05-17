@@ -1,6 +1,6 @@
 # Table of contents
 
-* [<- Portfolio](https://junowoz.github.io/portfolio/)
+* [<- Portfolio](https://junowoz.com)
 * [Hyperuranion Blog](README.md)
 
 ## Topics

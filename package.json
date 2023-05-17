@@ -3,7 +3,7 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
-    "homepage": "http://junowoz.com",
+    "homepage": "https://junowoz.com",
     "scripts": {
         "preinstall": "npx only-allow pnpm", 
         "dev": "vite",
