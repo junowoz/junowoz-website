@@ -38,7 +38,7 @@ function Contact() {
                 <FontAwesomeIcon icon={faLinkedin} className="fa-2xl" />
             </a>
             <a
-                href="https://junowoz.gitbook.io/blog/"
+                href="https://blog.junowoz.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-1 inline-flex text-xl"
