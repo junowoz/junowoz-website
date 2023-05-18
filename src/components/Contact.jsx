@@ -30,7 +30,7 @@ function Contact() {
                 <FontAwesomeIcon icon={faSquareGithub} className="fa-2xl" />
             </a>
             <a
-                href="https://linkedin.com/in/juanjosegouveac"
+                href="https://linkedin.com/in/junowoz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-1 inline-flex text-xl"
