@@ -1,7 +1,7 @@
----
+<!-- ---
 description: >-
   Delve into the abstract world of ideas, encompassing a kaleidoscope of topics.
----
+--- -->
 
 # Hyperuranion Blog
 
@@ -9,16 +9,16 @@ description: >-
 [startups](topics/startups/)
 {% endcontent-ref %}
 
-{% content-ref url="topics/consciência/" %}
-[consciência](topics/consciência/)
+{% content-ref url="topics/autoajuda/" %}
+[autoajuda](topics/autoajuda/)
 {% endcontent-ref %}
 
-{% content-ref url="topics/economics/" %}
-[economics](topics/economics/)
+{% content-ref url="topics/economia/" %}
+[economia](topics/economia/)
 {% endcontent-ref %}
 
-{% content-ref url="topics/engenharia/" %}
-[engenharia](topics/engenharia/)
+{% content-ref url="topics/computacao/" %}
+[computacao](topics/computacao/)
 {% endcontent-ref %}
 
 {% content-ref url="topics/espiritismo/" %}

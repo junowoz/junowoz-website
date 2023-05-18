@@ -1,4 +1,4 @@
 # 💮 Espiritismo
 
-<!-- - [Introdução ao Espiritismo](introducao-ao-espiritismo.md) -->
+- [Introdução ao Espiritismo](introducao-ao-espiritismo.md)
 ...
