@@ -29,4 +29,4 @@ A filosofia é clara: aperfeiçoamento e melhoria são processos contínuos, e �
 19. **Ignore seus concorrentes, você provavelmente vai morrer de suicídio do que de assassinato:** Concentre-se em seu próprio negócio em vez de se preocupar com a concorrência.
 20. **A maioria das empresas não morre porque fica sem dinheiro:** Problemas mais profundos, como falta de ajuste do produto ao mercado ou problemas de cofundador, geralmente são a causa da falha das startups.
 21. **Seja legal! Ou pelo menos não seja um idiota:** Seja respeitoso e agradável para com os outros. Isso pode fazer uma grande diferença.
-22. **Durma e faça exercícios - cuide de si mesmo:** Mantenha um equilíbrio saudável entre o trabalho e a vida pessoal. A saúde e o bem-estar são importantes para o sucesso a longo prazo.
+22. **Durma e faça exercícios - cuide de si:** Mantenha um equilíbrio saudável entre o trabalho e a vida pessoal. A saúde e o bem-estar são importantes para o sucesso a longo prazo.

@@ -2,7 +2,7 @@
 
 Uma série de 10 princípios que tento seguir no meu dia a dia.
 
-1. **Sempre diga a Verdade:** Se a sua vida está caótica, tente ser honesto. Dizer a verdade constantemente te forçará a mudar o que você não gosta em si mesmo. As mentiras nos permitem perpetuar falhas e ocultar erros, então, quando decidimos sempre dizer a verdade, sentimos vergonha de admitir nossos erros. A única saída é corrigir essas falhas para não ter que mentir.
+1. **Sempre diga a Verdade:** Se a sua vida está caótica, tente ser honesto. Dizer a verdade constantemente te forçará a mudar o que você não gosta em si. As mentiras nos permitem perpetuar falhas e ocultar erros, então, quando decidimos sempre dizer a verdade, sentimos vergonha de admitir nossos erros. A única saída é corrigir essas falhas para não ter que mentir.
 
 2. **Promova o Aprendizado:** Desenvolva um bom conhecimento geral. Aprenda o máximo que puder. Explore perifericamente uma ampla gama de campos do conhecimento. Aprenda um pouco sobre muitas coisas para descobrir o que realmente lhe interessa.
 

@@ -1,5 +1,3 @@
 # ⚙ Computação
 
 - [Java](java.md)
-
-...

@@ -42,11 +42,11 @@ Ele é escasso porque só existe um número máximo de bitcoins, sendo 21M. Não
 
 ### Halving
 
-Cada bloco minerado (cada 10 min), o minerador ganha novos bitcoins. Cada 4 anos a recompensa de bitcoins cai pela metade. Cada bloco minerado recebe 6,25 blocos de recompensa. Quando acabar, em 2145, por bloco minerado, se receberá 0, já que não haverá mais bitcoin por ser minerado. Com o tempo ele vai se consolidando.
+Cada bloco minerado (10 min entre bloco), o minerador ganha novos bitcoins. Cada 4 anos a recompensa de bitcoins cai pela metade. Sendo recebido por bloco minerado, 6,25 blocos de recompensa. Quando acabar, em 2145, por bloco minerado, se receberá 0, já que não haverá mais bitcoin por ser minerado. Com o tempo ele vai se consolidando.
 
 ### Lastro?
 
-O lastro do ouro são as características físicas do mesmo. O lastro do dólar, é o poder dos Estados Unidos. O lastro do bitcoin, são os milhares de mineradores, e todo o poder computacional que existe por trás dessa rede.
+O lastro do ouro são as características físicas do mesmo. No caso do lastro do dólar, é o poder dos Estados Unidos. Já o lastro do bitcoin, são os milhares de mineradores, e todo o poder computacional que existe por trás dessa rede.
 
 * Escassez
 * Segurança
@@ -54,15 +54,15 @@ O lastro do ouro são as características físicas do mesmo. O lastro do dólar,
 
 ## Guia das altcoins
 
-Todo Cripto ativo é uma criptomoeda, mas nem toda criptomoeda é um cripto ativo. Cripto ativo é um ativo financeiro, que tem um valor de mercado, e que pode ser negociado em uma bolsa de valores.
+Todo Cripto ativo é uma criptomoeda, mas nem toda criptomoeda é um cripto ativo. Cripto ativo é um ativo financeiro, com um valor de mercado, que pode ser negociado em uma bolsa de valores.
 
 ### Criptoativos
 
 * Meios de pagamento
-  * Bitcoin, Ripple, Litecoin (Versão mais rápida do bitcoin), etc…
-* Layer 1: Uma camada básica onde você pode ter vários serviços. Ethereum, Stellar, Polkadot (o petróleo digital), são exemplos de. Uma grande plataforma, um ecossistema onde você pode criar qualquer coisa. Aqui existe o grupo da web3, que vem para mudar a web2 e quebrar esse paradigma. Você é dono dos seus dados (porque você tem controle deles, já que estão armazenados numa blockchain). Brave, por exemplo, nos remunera pela nossa atenção, nos pagando por ver anúncios.
+  * Bitcoin, Ripple, Litecoin (Versão mais rápida do bitcoin), etc.
+* Layer 1: Uma camada básica onde você pode ter vários serviços. Ethereum, Stellar, Polkadot (o petróleo digital), são exemplos de. Uma grande plataforma, um ecossistema onde você pode criar qualquer coisa. Aqui existe o grupo da web3, que vem para mudar a web2 e quebrar esse paradigma. Você é dono dos seus dados (porque você tem controle deles, já que estão armazenados num blockchain). Brave, por exemplo, nos remunera pela nossa atenção, nos pagando por ver anúncios.
   * Na web2 o modelo de negócio e usar nossos dados para gerar dinheiro. Eles usam nossos dados, e vendem para anunciantes para ganhar dinheiro com a nossa atenção.
-* Layer 2: BAT (funciona na rede do Ethereum), Chainlink: um oráculo que toma informações reais, só que na blockchain. Uma rede de fornecimento de informação.
+* Layer 2: BAT (funciona na rede do Ethereum), Chainlink: um oráculo que toma informações reais, só que no blockchain. Uma rede de fornecimento de informação.
 
 ## Por que investir em criptomoedas?
 
@@ -107,7 +107,7 @@ Menos segura, porém muito mais comum, ter um aplicativo que gerencie sua cartei
 
 ### Deep Cold Storage
 
-Você gera a chave completamente desconectada da internet em computadores que nunca tiveram acesso à internet, se separam as chaves em alguns pedaços, e se armazenam em cofres. É isso o que os mais ricos fazem. Para fazer esse armazenamento, normalmente as empresas contratam custodiantes que são empresas focadas em fazer esse armazenamento. Guardam as chaves em bunkers ao redor do mundo. Usam computadores que nunca foram utilizados, tiram a placa de rede. Geram a chave privada nesse computador, quebram a chave privada em vários pedaços e armazenam de forma descentralizada.
+Você gera a chave completamente desconectada da internet em computadores que nunca tiveram acesso à internet, se separam as chaves em alguns pedaços, e se armazenam em cofres. É isso o que os mais ricos fazem. Para fazer esse armazenamento, normalmente as empresas contratam custodiantes que são empresas focadas em fazer esse armazenamento. Guardam as chaves em abrigos subterrâneos ao redor do mundo. Usam computadores que nunca foram utilizados, tiram a placa de rede. Geram a chave privada nesse computador, quebram a chave privada em vários pedaços e armazenam de forma descentralizada.
 
 * Esse tipo de armazenamento só é feito para investidores muito grandes. No caso, fundos da hashdex têm esse tipo de armazenamentos.
 
@@ -116,9 +116,9 @@ Você gera a chave completamente desconectada da internet em computadores que nu
 Ao baixar uma hot wallet:
 
 * Escolha uma confiável.
-* Lembre que sua cripto está na blockchain e você só pode acessar com a seed phrase.
+* Lembre que sua cripto está no blockchain e você só pode acessar com a seed phrase.
 * Guarde bem sua seed phrase.
-* Você deverá pagar uma taxa de mineração (um valor para a sua transação ser registrada na blockchain).
+* Você deverá pagar uma taxa de mineração (um valor para a sua transação ser registrada no blockchain).
   * Quanto tem mais pessoas querendo fazer as transações, tem simples lei de oferta e demanda, portanto, se a rede estiver congestionada, a taxa vai aumentar. Você tem outras opções para pagar taxas mais baratas, mas o tempo de envio será muito maior.
 
 ## Quais criptomoedas comprar?
