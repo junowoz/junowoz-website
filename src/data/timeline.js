@@ -43,7 +43,7 @@ export default [
     year: "2020",
     title: "Computer Engineering, Economics",
     duration: "5 years",
-    company: "Centro Universitário Fametro",
-    details: "Class Leader, Grade: 8.3",
+    company: "Centro Universitário Fametro | Uninorte - Laureate International",
+    details: "• Participant of the Technology, Entrepreneurship, and Innovation Fair (Inovatec, 2022), showcasing the IoT project, EasySpot; Creator of the official website for Inovatec, 2023; Class Leader.",
   },
 ];
