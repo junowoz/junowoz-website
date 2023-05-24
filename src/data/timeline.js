@@ -2,10 +2,10 @@ export default [
   {
     year: "2023",
     title: "Founder",
-    company: "LinkUp",
+    company: "Sudo",
     duration: "2023 - Present",
     details:
-      "• LinkUp is an innovative tool for professionals who want to keep their resume, personal website, LinkedIn, and GitHub profiles up-to-date without manually updating each platform. With this app, you input your information once, and it will automatically update across all your relevant profiles.",
+      "• Sudo is a web and mobile development agency offering a wide range of digital solutions, including corporate websites, e-commerces, landing pages, and mobile apps. As the founder and lead developer of Sudo, I play a crucial role in driving the company's strategic vision and delivering high-quality digital solutions to our clients.",
   },
   {
     year: "2022",
