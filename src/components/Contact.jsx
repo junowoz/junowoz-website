@@ -1,7 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBlogger, faSquareTwitter, faSquareGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faYenSign } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
   const [theme, setTheme] = React.useState("light");
@@ -51,14 +50,6 @@ function Contact() {
         className="p-1 inline-flex text-xl"
       >
         <FontAwesomeIcon icon={faSquareTwitter} className="fa-2xl" />
-      </a>
-      <a
-        href="https://playbook.junowoz.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="p-1 inline-flex text-xl"
-      >
-        <FontAwesomeIcon icon={faYenSign} className="fa-2xl" />
       </a>
     </div>
   );

@@ -1,6 +1,6 @@
 # 🈺 Startups
 
-- [Como criar uma Startup?](como-criar-uma-startup.md)
+- [Manual do Empreendedor (Startup Playbook)](https://playbook.junowoz.com)
 - [Recursos para Startups](recursos.md)
 - [Conselhos Essenciais - Y Combinator](y-combinator-advice.md)
-<!-- - [Como fazer um Pitch?](como-fazer-um-pitch.md) -->
+- [Guia prático do Pitch](guia-pratico-pitch.md)

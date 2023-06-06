@@ -6,9 +6,10 @@
 ## Index
 
 * [🈺 Startups](topics/startups/README.md)
-  * [Como criar uma Startup?](topics/startups/como-criar-uma-startup.md)
+  * [Manual do Empreendedor (Startup Playbook)](https://playbook.junowoz.com)
   * [Recursos para Startups](topics/startups/recursos.md)
   * [Conselhos Essenciais - Y Combinator](topics/startups/y-combinator-advice.md)
+  * [Guia prático do Pitch](topics/startups/guia-pratico-pitch.md)
 * [🧠 Autoajuda](topics/autoajuda/README.md)
   * [Mentoria de Carreira para Desenvolvedores](topics/autoajuda/mentoria-de-carreira.md)  
   * [Produtividade](topics/autoajuda/produtividade.md)
