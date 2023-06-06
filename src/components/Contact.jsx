@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBlogger, faTwitterSquare, faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faBlogger, faSquareTwitter, faSquareGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faYenSign } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
