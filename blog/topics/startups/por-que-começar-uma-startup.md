@@ -6,7 +6,7 @@
 
 Agora temos dados suficientes sobre as taxas de sucesso do Y Combinator. Nossa primeira turma, no verão de 2005, tinha oito startups. Dessas oito, agora parece que pelo menos quatro tiveram sucesso. Três foram adquiridas: o Reddit foi uma fusão de dois, Reddit e Infogami, e uma terceira foi adquirida sobre a qual não podemos falar ainda. Outra daquela turma foi a Loopt, que está indo tão bem que provavelmente poderia ser adquirida em cerca de dez minutos se eles quisessem.
 
-Então, cerca da metade dos fundadores daquele primeiro verão, menos de dois anos atrás, agora são ricos, pelo menos de acordo com os padrões deles. (Uma coisa que você aprende quando fica rico é que existem muitos graus disso).
+Então, cerca da metade dos fundadores daquela primeira turma, menos de dois anos atrás, agora são ricos, pelo menos de acordo com os padrões deles. (Uma coisa que você aprende quando fica rico é que existem muitos graus disso).
 
 Não estou pronto para prever que nossa taxa de sucesso permanecerá tão alta quanto 50%. Aquela primeira turma poderia ter sido uma anomalia. Mas deveríamos ser capazes de ir melhor do que a taxa padrão amplamente citada (e provavelmente inventada) de 10%. Eu me sentiria seguro mirando em 25%.
 
@@ -96,7 +96,7 @@ Financiamos dois fundadores individuais, mas em ambos os casos sugerimos que sua
 
 Se você não tem um cofundador, o que você deve fazer? Encontre um. É mais importante do que qualquer outra coisa. Se não houver ninguém onde você mora que queira começar uma startup com você, mude-se para onde há pessoas que querem. Se ninguém quer trabalhar com você em sua ideia atual, mude para uma ideia que as pessoas queiram trabalhar.
 
-Se você ainda está na escola, está cercado de potenciais cofundadores. Alguns anos depois, fica mais difícil encontrá-los. Além de ter um grupo menor para escolher, a maioria já tem empregos e talvez até famílias para sustentar. Então, se você tinha amigos na faculdade com quem costumava planejar startups, mantenha contato com eles o melhor que puder. Isso pode ajudar a manter o sonho vivo.
+Se você ainda está na escola, está cercado de potenciais cofundadores. Alguns anos depois, fica mais difícil encontrá-los. Além de ter um grupo menor para escolher, a maioria já tem empregos e talvez até famílias para sustentar. Então, se você tinha amigos na faculdade com quem costumava planejar startups, mantenha o contato com eles o melhor que puder. Isso pode ajudar a manter o sonho vivo.
 
 É possível que você encontre um cofundador por meio de algo como um grupo de usuários ou uma conferência. Mas eu não seria muito otimista. Você precisa trabalhar com alguém para saber se quer tê-lo como cofundador. [2]
 
@@ -220,3 +220,5 @@ Isso é o que nos impulsiona a trabalhar no Y Combinator. Queremos ganhar dinhei
 [4] Experimento mental: se os médicos fizessem o mesmo trabalho, mas como excluídos empobrecidos, que pais ainda quereriam que seus filhos fossem médicos?
 
 > Agradecimentos a Trevor Blackwell, Jessica Livingston e Robert Morris por lerem rascunhos deste texto, aos fundadores da Zenter por me permitirem usar o matador de apresentações baseado na web, mesmo que ainda não tenha sido lançado, e a Ming-Hay Luk da Berkeley CSUA por me convidar para falar.
+
+- [Artigo original](http://www.paulgraham.com/notnot.html)
