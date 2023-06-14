@@ -7,7 +7,8 @@
 
 * [🈺 Startups](topics/startups/README.md)
   * [Manual do Empreendedor (Startup Playbook)](https://playbook.junowoz.com)
-  * [Por que começar uma startup?](topics/startups/por-que-começar-uma-startup.md)
+  * [Por que não começar uma startup](topics/startups/por-que-nao-começar-uma-startup.md)
+  * [Antes da Startup](topics/startups/antes-da-startup.md)
   * [Recursos para Startups](topics/startups/recursos.md)
   * [Conselhos Essenciais - Y Combinator](topics/startups/y-combinator-advice.md)
   * [Guia prático do Pitch](topics/startups/guia-pratico-pitch.md)

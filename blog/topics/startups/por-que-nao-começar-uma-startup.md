@@ -1,4 +1,4 @@
-# Por que começar uma startup?
+# Por que não começar uma startup
 
 > Por Paul Graham, Março de 2007
 
