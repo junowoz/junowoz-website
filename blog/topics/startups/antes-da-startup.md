@@ -2,13 +2,13 @@
 
 > Por Paul Graham, Outubro de 2014
 
-(Este ensaio é derivado de uma palestra convidada na [aula de startups](http://startupclass.samaltman.com/) de Sam Altman em Stanford. É destinado a estudantes universitários, mas grande parte dele é aplicável a potenciais fundadores de todas as idades.)
+(Este ensaio é derivado de uma palestra que dei na [aula de startups](http://startupclass.samaltman.com/) de Sam Altman em Stanford. É destinado a estudantes universitários, mas grande parte dela é aplicável a potenciais fundadores de todas as idades.)
 
-Uma das vantagens de ter filhos é que quando você tem que dar conselhos, pode se perguntar "o que eu diria aos meus próprios filhos?" Meus filhos são pequenos, mas consigo imaginar o que eu diria a eles sobre startups se estivessem na faculdade, e é isso que vou dizer a você.
+Uma das vantagens de ter filhos é que quando você tem que dar conselhos. Pode se perguntar "o que eu diria aos meus próprios filhos?". Meus filhos são pequenos, mas consigo imaginar o que eu diria a eles sobre startups se estivessem na faculdade, e é isso que vou dizer a você.
 
 Startups são muito contraintuitivas. Não tenho certeza do motivo. Talvez seja apenas porque o conhecimento sobre elas ainda não permeou nossa cultura. Mas seja qual for a razão, iniciar uma startup é uma tarefa em que você nem sempre pode confiar nos seus instintos.
 
-É como esquiar nesse aspecto. Quando você tenta esquiar pela primeira vez e quer desacelerar, seu instinto é se inclinar para trás. Mas se você se inclina para trás nos esquis, você desce a montanha descontrolado. Portanto, parte do aprendizado do esqui é aprender a suprimir esse impulso. Eventualmente, você adquire novos hábitos, mas no início é preciso um esforço consciente. A princípio, existe uma lista de coisas que você está tentando lembrar quando começa a descer a montanha.
+É como esquiar, nesse aspecto. Quando você tenta esquiar pela primeira vez e quer desacelerar, seu instinto é se inclinar para trás, mas se você se inclina para trás nos esquis, você desce a montanha descontroladamente. Portanto, parte do aprendizado do esqui é aprender a suprimir esse impulso. Eventualmente, você adquire novos hábitos, mas no início é preciso um esforço consciente. A princípio, existe uma lista de coisas que você está tentando lembrar quando começa a descer a montanha.
 
 Startups são tão antinaturais quanto esquiar, então existe uma lista semelhante para startups. Aqui vou dar a você a primeira parte dela - as coisas para lembrar se você quiser se preparar para iniciar uma startup.
 
@@ -18,11 +18,11 @@ O primeiro item dela é o fato que já mencionei: que startups são tão estranh
 
 Quando eu administrava o Y Combinator, costumava brincar que nossa função era dizer aos fundadores coisas que eles ignorariam. É realmente verdade. Lote após lote, os parceiros do YC alertam os fundadores sobre erros que estão prestes a cometer, e os fundadores os ignoram, e depois voltam um ano depois e dizem "eu gostaria de ter escutado".
 
-Por que os fundadores ignoram o conselho dos parceiros? Bem, essa é a questão sobre ideias contraintuitivas: elas contradizem suas intuições. Elas parecem erradas. Então, é claro, seu primeiro impulso é desconsiderá-las. E na verdade minha descrição brincando não é apenas a maldição do Y Combinator, mas parte de sua razão de ser. Se os instintos dos fundadores já lhes dessem as respostas corretas, eles não precisariam de nós. Você só precisa que outras pessoas lhe deem conselhos que o surpreendam. É por isso que existem muitos instrutores de esqui e não muitos instrutores de corrida. [1]
+Por que os fundadores ignoram o conselho dos parceiros? Bem, essa é a questão sobre ideias contraintuitivas: elas contradizem suas intuições. Elas parecem erradas. Então, é claro, seu primeiro impulso é desconsiderá-las. E na verdade, minha descrição não é apenas a maldição da Y Combinator, mas parte de sua razão de ser. Se os instintos dos fundadores já lhes dessem as respostas corretas, eles não precisariam de nós. Você só precisa que outras pessoas lhe deem conselhos que o surpreendam. É por isso que existem muitos instrutores de esqui e não muitos instrutores de corrida. [1]
 
 No entanto, você pode confiar nos seus instintos sobre pessoas. E na verdade, um dos erros mais comuns que jovens fundadores cometem é não fazer isso o suficiente. Eles se envolvem com pessoas que parecem impressionantes, mas sobre as quais têm algumas dúvidas pessoais. Depois, quando as coisas explodem, eles dizem "Eu sabia que havia algo estranho nele, mas ignorei porque ele parecia tão impressionante".
 
-Se você está pensando em se envolver com alguém - como um cofundador, um funcionário, um investidor ou um adquirente - e tem dúvidas sobre ele, confie no seu instinto. Se alguém parece escorregadio, ou falso, ou um idiota, não ignore isso.
+Se você está pensando em se envolver com alguém - como um cofundador, um funcionário, um investidor ou um adquirente - e tem dúvidas sobre ele, confie no seu instinto. Se alguém parece duvidoso, ou falso, ou um idiota, não ignore isso.
 
 Este é um caso em que vale a pena ser autoindulgente. Trabalhe com pessoas de quem você realmente gosta, e que você conhece há tempo suficiente para ter certeza.
 
@@ -30,9 +30,9 @@ Este é um caso em que vale a pena ser autoindulgente. Trabalhe com pessoas de q
 
 O segundo ponto contraintuitivo é que não é tão importante saber muito sobre startups. A maneira de ter sucesso em uma startup não é ser um especialista em startups, mas ser um especialista em seus usuários e no problema que você está resolvendo para eles. Mark Zuckerberg não teve sucesso porque era um especialista em startups. Ele teve sucesso apesar de ser um completo novato em startups, porque entendia muito bem seus usuários.
 
-Se você não sabe nada sobre, digamos, como levantar um investimento angel, não se sinta mal por isso. Esse tipo de coisa você pode aprender quando precisar, e esquecer depois de ter feito isso.
+Se você não sabe nada sobre, digamos, como levantar uma rodada de investimento com investidores anjo, não se sinta mal por isso. Esse tipo de coisa você pode aprender quando precisar, e esquecer depois de ter feito isso.
 
-Na verdade, me preocupa que não seja apenas desnecessário aprender em grande detalhe sobre a mecânica das startups, mas possivelmente um pouco perigoso. Se eu conhecesse um estudante de graduação que soubesse tudo sobre notas conversíveis e contratos de trabalho e (Deus me livre) ações de classe FF, eu não pensaria "aqui está alguém que está muito à frente de seus pares". Isso acionaria alarmes. Porque outro dos erros característicos de jovens fundadores é passar pelas etapas de iniciar uma startup. Eles inventam alguma ideia plausível, levantam dinheiro com uma boa avaliação, alugam um escritório legal, contratam um monte de pessoas. De fora, parece que é isso que as startups fazem. Mas o próximo passo depois de alugar um escritório legal e contratar um monte de pessoas é: perceber gradualmente o quanto estão completamente ferrados, porque enquanto imitavam todas as formas externas de uma startup, negligenciavam a única coisa que é realmente essencial: fazer algo que as pessoas querem.
+Na verdade, me preocupa que não seja apenas desnecessário aprender em grande detalhe sobre a mecânica das startups, mas possivelmente um pouco perigoso. Se eu conhecesse um estudante de graduação que soubesse tudo sobre notas conversíveis e contratos de trabalho e (Deus me livre) ações de classe FF, eu não pensaria "aqui está alguém que está muito à frente de seus pares". Isso acionaria alarmes. Porque outro dos erros característicos de jovens fundadores é passar pelas etapas de iniciar uma startup. Eles inventam alguma ideia plausível, levantam dinheiro, alugam um escritório legal, contratam um monte de pessoas. De fora, parece que é isso que as startups fazem. Mas o próximo passo depois de alugar um escritório legal e contratar um monte de pessoas é: perceber gradualmente o quanto estão completamente ferrados, porque enquanto imitavam todas as formas externas de uma startup, negligenciavam a única coisa que é realmente essencial: fazer algo que as pessoas querem.
 
 ## Jogo
 
@@ -40,13 +40,13 @@ Vimos isso acontecer tantas vezes que criamos um nome para isso: brincar de casi
 
 Não estou atacando o sistema educacional por ser assim. Sempre haverá uma certa quantidade de falsidade no trabalho que você faz quando está aprendendo algo, e se você mede o desempenho deles, é inevitável que as pessoas explorem a diferença até o ponto em que muito do que você está medindo são artefatos da falsidade.
 
-Confesso que eu mesmo fiz isso na faculdade. Descobri que em muitas aulas pode haver apenas 20 ou 30 ideias que têm a forma certa para fazer boas perguntas de exame. A maneira como eu estudava para os exames nessas aulas não era (exceto incidentalmente) dominar o material ensinado na aula, mas fazer uma lista de perguntas potenciais de exame e descobrir as respostas com antecedência. Quando eu entrava na final, a principal coisa que eu estava sentindo era curiosidade sobre quais de minhas perguntas apareceriam no exame. Era como um jogo.
+Confesso que eu mesmo fiz isso na faculdade. Descobri que em muitas aulas pode haver apenas 20 ou 30 ideias que têm a forma certa para fazer boas perguntas de exame. A maneira como eu estudava para os exames nessas aulas não era (exceto incidentalmente) para dominar o material ensinado na aula, mas fazer uma lista de perguntas potenciais de exame e descobrir as respostas com antecedência. Quando eu entrava na final, a principal coisa que eu estava sentindo era curiosidade sobre quais de minhas perguntas apareceriam no exame. Era como um jogo.
 
 Não é surpreendente que, depois de serem treinados durante toda a vida para jogar esses jogos, o primeiro impulso dos jovens fundadores ao iniciar uma startup seja tentar descobrir os truques para ganhar neste novo jogo. Como a captação de recursos parece ser a medida de sucesso para as startups (outro erro clássico de novato), eles sempre querem saber quais são os truques para convencer os investidores. Dizemos a eles que a melhor maneira de [convencer os investidores](http://www.paulgraham.com/convince.html) é fazer uma startup que esteja indo bem, ou seja, [crescendo rápido](http://www.paulgraham.com/growth.html), e então simplesmente dizer aos investidores. Então eles querem saber quais são os truques para crescer rápido. E temos que dizer a eles que a melhor maneira de fazer isso é simplesmente fazer algo que as pessoas queiram.
 
 Tantas das conversas que os parceiros do YC têm com jovens fundadores começam com o fundador perguntando "Como fazemos..." e o parceiro respondendo "Apenas..."
 
-Por que os fundadores sempre complicam as coisas? A razão, percebi, é que eles estão procurando o truque.
+Por que os fundadores sempre complicam as coisas? A razão, percebi, é que eles estão procurando pelo truque.
 
 Então, este é o terceiro ponto contraintuitivo a lembrar sobre startups: iniciar uma startup é onde o jogo do sistema para de funcionar. Jogar o sistema pode continuar a funcionar se você for trabalhar para uma grande empresa. Dependendo de quão quebrada a empresa está, você pode ter sucesso bajulando as pessoas certas, dando a impressão de produtividade, e assim por diante. [2] Mas isso não funciona com startups. Não há chefe para enganar, apenas usuários, e tudo que os usuários se importam é se o seu produto faz o que eles querem. Startups são tão impessoais quanto a física. Você tem que fazer algo que as pessoas querem, e você prospera apenas na medida em que faz isso.
 
