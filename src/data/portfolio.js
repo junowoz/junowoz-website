@@ -1,6 +1,6 @@
 export default [
   {
-    title: "Inovatec",
+    title: "Inovatec - FullStack Website",
     imgUrl: "assets/inovatec.png",
     stack: ["NextJS", "React", "JavaScript", "Supabase", "Zustand"],
     link: "https://inovatec-seven.vercel.app/",
@@ -14,7 +14,14 @@ export default [
     repo: "https://github.com/junowoz/recycling-web",
   },
   {
-    title: "Weather App",
+    title: "PyNorte Website",
+    imgUrl: "assets/pynorte.png",
+    stack: ["React", "TailwindCSS", "JavaScript"],
+    link: "https://2023.pythonnorte.org/#/preview",
+    repo: "https://github.com/junowoz/pynorte2023-site",
+  },
+  {
+    title: "Weather Web App",
     imgUrl: "assets/weather-react.png",
     stack: ["React", "JavaScript", "GeoDB API"],
     link: "https://weather-react-psi.vercel.app/",
@@ -28,7 +35,7 @@ export default [
   //     repo: "https://github.com/junowoz/chatgpt-clone",
   // },
   {
-    title: "Blog",
+    title: "NextJS Blog",
     imgUrl: "assets/blog.png",
     stack: ["NextJS", "TailwindCss", "Markdown"],
     link: "https://blog-two-pink-30.vercel.app/",
