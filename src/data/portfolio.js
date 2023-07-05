@@ -1,8 +1,8 @@
 export default [
   {
-    title: "Inovatec - FullStack Website",
+    title: "Inovatec Website",
     imgUrl: "assets/inovatec.png",
-    stack: ["NextJS", "React", "JavaScript", "Supabase", "Zustand"],
+    stack: ["NextJS", "React", "JavaScript", "Supabase", "Zustand", "FullStack Development"],
     link: "https://inovatec-seven.vercel.app/",
     repo: "https://github.com/inovatec-fametro/inovatec",
   },
