@@ -105,9 +105,9 @@ function App() {
                 <div className="max-w-5xl w-11/12 mx-auto">
                     <Intro />
                     <Contact />
-                    <Skills />
+                    {/* <Skills /> */}
                     <Portfolio />
-                    <Timeline />
+                    {/* <Timeline /> */}
                     <Footer />
                 </div>
             </div>

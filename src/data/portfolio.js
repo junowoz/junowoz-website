@@ -35,10 +35,10 @@ export default [
   //     repo: "https://github.com/junowoz/chatgpt-clone",
   // },
   {
-    title: "NextJS Blog",
+    title: "Personal Blog",
     imgUrl: "assets/blog.png",
-    stack: ["NextJS", "TailwindCss", "Markdown"],
-    link: "https://blog-two-pink-30.vercel.app/",
+    stack: ["SvelteKit", "TailwindCss", "Markdown"],
+    link: "https://blog.junowoz.com/",
     repo: "https://github.com/junowoz/blog",
   },
   {

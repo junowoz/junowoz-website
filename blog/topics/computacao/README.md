@@ -1,3 +1,0 @@
-# ⚙ Computação
-
-- [Java](java.md)
