@@ -11,10 +11,10 @@ function Intro() {
                 />
             </p>
             <br />
-            <p className="text-4xl md:text-5xl dark:text-white mb-3 md:my-3 font-bold">
+            <p className="text-3xl md:text-5xl dark:text-white mb-3 md:my-3 font-bold">
                 Juan José Gouvêa
             </p>
-            <p className="text-3xl md:text-3xl font-medium">
+            <p className="text-2xl md:text-3xl font-medium">
                 Software Engineer
             </p>
         </div>

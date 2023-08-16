@@ -11,14 +11,14 @@ function Contact() {
         theme === "light" ? "text-gray-1000" : "text-white"
       }`}
     >
-      <a
+      {/* <a
         href="https://gitconnected.com/junowoz/resume"
         target="_blank"
         rel="noopener noreferrer"
         className="py-3 px-4 dark:bg-gray-600 bg-gray-300 dark:hover:bg-orange-600 hover:bg-purple-600 hover:text-white dark:text-white text-gray-900 font-bold rounded transition duration-600 ease-in-out transform hover:scale-105"
       >
         Resume
-      </a>
+      </a> */}
       <a
         href="https://github.com/junowoz"
         target="_blank"
