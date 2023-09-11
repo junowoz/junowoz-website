@@ -14,19 +14,19 @@
         "@fortawesome/free-brands-svg-icons": "^6.4.2",
         "@fortawesome/free-solid-svg-icons": "^6.4.2",
         "@fortawesome/react-fontawesome": "^0.2.0",
-        "axios": "^1.4.0",
+        "axios": "^1.5.0",
         "flowbite": "^1.8.1",
         "flowbite-react": "^0.3.8",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "react-icons": "^4.10.1"
+        "react-icons": "^4.11.0"
     },
     "devDependencies": {
-        "@types/react": "^18.2.20",
+        "@types/react": "^18.2.21",
         "@types/react-dom": "^18.2.7",
         "@vitejs/plugin-react": "^2.2.0",
-        "autoprefixer": "^10.4.14",
-        "postcss": "^8.4.27",
+        "autoprefixer": "^10.4.15",
+        "postcss": "^8.4.29",
         "tailwindcss": "^3.3.3",
         "vite": "^3.2.7"
     }
