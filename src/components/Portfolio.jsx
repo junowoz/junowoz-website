@@ -6,7 +6,7 @@ function Portfolio() {
 
   useEffect(() => {
     fetch(
-      "https://linkup.junowoz.com/api/resume?id=048475db-b9d8-4340-bf96-eb6b61d85cc2"
+      "https://vitae.junowoz.com/api/resume?id=048475db-b9d8-4340-bf96-eb6b61d85cc2"
     )
       .then((response) => response.json())
       .then((data) => {
