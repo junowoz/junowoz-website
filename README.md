@@ -1,3 +1,3 @@
-# Personal Portfolio
+# Personal Portfólio
 
 - React, Vite, TailwindCSS
