@@ -18,7 +18,7 @@ function Contact() {
       }`}
     >
       <a
-        href="https://vitae.junowoz.com/view/resume?id=6bb68fa3-7778-4251-bf6f-aea1d1ff69eb&name=CV%20PRINCIPAL%20-%20junowoz.com"
+        href="https://vitae.junowoz.com/view/Xoi5RhGUC0"
         target="_blank"
         rel="noopener noreferrer"
         className="py-3 px-4 dark:bg-gray-600 bg-gray-300 dark:hover:bg-orange-600 hover:bg-purple-600 hover:text-white dark:text-white text-gray-900 font-bold rounded transition duration-600 ease-in-out transform hover:scale-105"
@@ -57,14 +57,17 @@ function Contact() {
       >
         <FontAwesomeIcon icon={faSquareXTwitter} className="fa-2xl" />
       </a>
-      <a
-        href="https://playbook.junowoz.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="p-1 inline-flex text-xl"
-      >
-        <FontAwesomeIcon icon={faYCombinator} className="fa-2xl" />
-      </a>
+{/*
+  <a
+      href="https://playbook.junowoz.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-1 inline-flex text-xl"
+  >
+      <FontAwesomeIcon icon={faYCombinator} className="fa-2xl" />
+  </a>
+*/}
+
     </div>
   );
 }
