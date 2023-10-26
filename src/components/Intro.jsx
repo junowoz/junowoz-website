@@ -1,21 +1,21 @@
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 
 function Intro() {
-  const [infos, setInfos] = useState([]);
+  const [infos, setInfos] = useState({});
 
   useEffect(() => {
     fetch("https://vitae.junowoz.com/api/xdK76oVgKU")
       .then((response) => response.json())
       .then((data) => {
-        const formattedInfos = data.basics.map((infos) => {
-          return {
-            name: infos.name,
-            label: infos.label,
-          };
-        });
+        console.log(data);
+        const formattedInfos = {
+          name: data.basics.name,
+          label: data.basics.label,
+        };
         setInfos(formattedInfos);
       });
   }, []);
+
   return (
     <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
       <p className="text-5xl md:text-5xl">
@@ -27,13 +27,9 @@ function Intro() {
       </p>
       <br />
       <p className="text-3xl md:text-5xl dark:text-white mb-3 md:my-3 font-bold">
-        {/* Juan José Gouvêa */}
         {infos.name}
       </p>
-      <p className="text-2xl md:text-3xl font-medium">
-        {/* Desenvolvedor de Software */}
-        {infos.label}
-      </p>
+      <p className="text-2xl md:text-3xl font-medium">{infos.label}</p>
     </div>
   );
 }
