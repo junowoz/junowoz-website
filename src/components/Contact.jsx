@@ -12,7 +12,7 @@ function Contact() {
   const [profiles, setProfiles] = useState([]);
 
   useEffect(() => {
-    fetch("https://vitae.junowoz.com/api/xdK76oVgKU")
+    fetch("https://vitae.cv/api/xdK76oVgKU")
       .then((response) => response.json())
       .then((data) => {
         setProfiles(data.basics.profiles);
