@@ -6,7 +6,7 @@ function Portfolio() {
 
   useEffect(() => {
     fetch(
-      "https://vitae.junowoz.com/api/xdK76oVgKU"
+      "https://vitae.cv/api/xdK76oVgKU"
     )
       .then((response) => response.json())
       .then((data) => {
