@@ -1,1 +1,1 @@
-# Vanilla Portfolio (HTML, CSS, JavaScript)
+Vanilla Portfolio (HTML, CSS, JavaScript)
