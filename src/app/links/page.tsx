@@ -9,7 +9,7 @@ export default function Links() {
           <a href={link.url} className="text-link hover:underline">
             {link.name}:{" "}
           </a>
-          <span className="text-foreground">{link.description}</span>
+          <span>{link.description}</span>
         </li>
       ))}
     </div>
