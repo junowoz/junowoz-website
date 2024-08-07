@@ -3,8 +3,9 @@ import { Links } from "@/interfaces";
 export const links: Links[] = [
   {
     url: "https://www.youtube.com/watch?v=HaBMAD-Dr8M&list=PLnAxReCloSeTJc8ZGogzjtCtXl_eE6yzA&index=1",
-    name: "Logic Gates Playlist",
-    description: "A playlist of useful videos on various topics.",
+    name: "How computers work - Building Scott's CPU",
+    description:
+      "A playlist of videos that explain how computers work from scratch. Starting from the basics we build every component step by step.",
   },
   {
     url: "https://martinfowler.com/architecture/",
@@ -42,5 +43,10 @@ export const links: Links[] = [
     url: "https://cpu.land/",
     name: "CPU Land",
     description: "A website dedicated to CPU architecture and functioning.",
+  },
+  {
+    url: "https://jamstack.org/glossary/",
+    name: "JAMstack",
+    description: "A glossary of terms related to JAMstack architecture.",
   },
 ];
