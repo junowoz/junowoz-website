@@ -3,8 +3,7 @@ export interface Basics {
   email: string;
   label: string;
   summary?: string;
-  location?: string;
-  socials: Socials[];
+  interests?: string[];
 }
 
 export interface Socials {

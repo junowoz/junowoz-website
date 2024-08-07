@@ -4,27 +4,11 @@ export const basics: Basics = {
   name: "Juan José Gouvêa (@junowoz)",
   email: "junogouvea@gmail.com",
   label: "Full-Stack Software Developer",
-  summary: "",
-  socials: [
-    {
-      url: "https://github.com/junowoz",
-      network: "gitHub",
-    },
-    {
-      url: "https://linkedin.com/in/junowoz",
-      network: "linkedin",
-    },
-    {
-      url: "https://blog.junowoz.com/",
-      network: "blog",
-    },
-    {
-      url: "https://twitter.com/junow0z",
-      network: "twitter",
-    },
-    {
-      url: "https://vitae.cv/view/LS0hzLcDnR",
-      network: "vitae",
-    },
+  summary:
+    "I'm a Computer Engineer and Economist based in Brazil, currently working as a software developer. I love developing useful tech for people, and am guided by Unix philosophy.",
+  interests: [
+    "Interested in how technology intersects with society.",
+    "Deeply fascinated by consciousness and the human mind.",
+    "I aim for minimalist and universal interfaces.",
   ],
 };

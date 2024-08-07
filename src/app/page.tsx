@@ -4,6 +4,7 @@ import WebBadges from "@/components/WebBadges";
 import { basics } from "@/data/basics";
 import { projects } from "@/data/projects";
 import { techStack } from "@/data/techStack";
+import { socials } from "@/data/socials";
 
 export default async function Home() {
   return (
@@ -22,31 +23,26 @@ export default async function Home() {
         <a className="hover:underline" href={`mailto:${basics.email}`}>
           {basics.email}
         </a>
-        <div id="socials" className="flex gap-2">
-          {basics.socials.map((socials) => (
-            <Fragment key={socials.network}>
-              <a target="_blank" href={socials.url} className="hover:underline">
-                {socials.network.toLowerCase()}
+        <div id="socials" className="flex flex-wrap">
+          {socials.map((social, index) => (
+            <div key={social.network}>
+              <a target="_blank" href={social.url} className="hover:underline">
+                {social.network.toLowerCase()}
               </a>
-              /
-            </Fragment>
+              {index < socials.length - 1 && <span className="mx-2">/</span>}
+            </div>
           ))}
         </div>
       </section>
       <section id="about" className="grid gap-2">
-        <p>
-          I&apos;m a Computer Engineer and Economist based in Brazil, currently
-          working as a software developer. I love coding and am a fan of the 
-          open-source movement.
-        </p>
-        <ul className="list-disc list-inside">
-          <li>
-            Interested in how technology intersects with society.
-          </li>
-          <li>
-            Deeply fascinated by consciousness and the human mind.
-          </li>
-        </ul>
+        <p>{basics.summary}</p>
+        {basics.interests && (
+          <ul className="list-disc list-inside">
+            {basics.interests.map((interest) => (
+              <li key={interest}>{interest}</li>
+            ))}
+          </ul>
+        )}
       </section>
       <section id="projects" className="grid gap-2">
         <h2 className="text-xl font-bold">PROJECTS</h2>

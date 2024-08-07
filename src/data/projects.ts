@@ -4,7 +4,8 @@ export const projects: Projects[] = [
   {
     url: "https://udyax.com",
     name: "Udyax",
-    description: "For now, a simple website. Planning to work on this later for my final paper.",
+    description:
+      "For now, a simple website. Planning to work on this later for my final paper.",
   },
   {
     url: "https://identicon.junowoz.com",
