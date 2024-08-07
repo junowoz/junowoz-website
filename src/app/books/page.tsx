@@ -7,8 +7,8 @@ export default function Books() {
       <table className="border-separate text-left">
         <thead>
           <tr>
-            <th className="border-b-2 border-white">Título</th>
-            <th className="border-b-2 border-white pl-8">Autor</th>
+            <th className="border-b-2 border-white">TITLE</th>
+            <th className="border-b-2 border-white pl-8">AUTHOR</th>
           </tr>
         </thead>
         <tbody>
