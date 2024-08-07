@@ -18,7 +18,7 @@ export default async function Home() {
         <p className="text-primary">{basics.name}</p>
         <p className="text-foreground">{basics.label}</p>
       </div>
-      <section id="contato" className="text-link">
+      <section id="contact" className="text-link">
         <a className="hover:underline" href={`mailto:${basics.email}`}>
           {basics.email}
         </a>
@@ -35,9 +35,9 @@ export default async function Home() {
       </section>
       <section id="about" className="grid gap-2">
         <p>
-          I&apos;m a Computer Engineer and Economist from Brazil, currently
-          working as a software developer. I love coding and am a fan of the
-          Unix philosophy and the open-source movement.
+          I&apos;m a Computer Engineer and Economist based in Brazil, currently
+          working as a software developer. I love coding and am a fan of the 
+          open-source movement.
         </p>
         <ul className="list-disc list-inside">
           <li>
@@ -58,8 +58,9 @@ export default async function Home() {
                 href={project.url}
                 className="text-link hover:underline"
               >
-                {project.name}: {project.description}
+                {project.name}:{" "}
               </a>
+              <span>{project.description}</span>
             </li>
           ))}
         </ul>
