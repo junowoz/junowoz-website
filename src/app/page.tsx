@@ -9,12 +9,7 @@ import { socials } from "@/data/socials";
 export default async function Home() {
   return (
     <div className="grid gap-4">
-      <Image
-        src="/profile.png"
-        alt="Profile Picture"
-        width={128}
-        height={128}
-      />
+      <Image src="/og.png" alt="Profile Picture" width={128} height={128} />
       <div>
         <p className="text-primary">{basics.name}</p>
         <p className="text-foreground">{basics.label}</p>

@@ -6,6 +6,24 @@ import { navItems } from "@/data/navItems";
 export const metadata: Metadata = {
   title: "junowoz | website",
   description: "जूनोवोस्",
+  openGraph: {
+    type: "website",
+    url: "https://junowoz.com",
+    title: "junowoz | website",
+    description: "जूनोवोस्",
+    siteName: "junowoz",
+    images: [
+      {
+        url: "https://junowoz.com/og.png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@junow0z",
+    creator: "@junow0z",
+    images: "https://junowoz.com/og.png",
+  },
 };
 
 export default function RootLayout({
@@ -35,7 +53,7 @@ export default function RootLayout({
               >
                 {item.label}
               </Link>
-            )
+            ),
           )}
         </nav>
         <main>{children}</main>
