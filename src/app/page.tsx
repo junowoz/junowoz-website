@@ -22,7 +22,7 @@ export default async function Home() {
         <a className="hover:underline" href={`mailto:${basics.email}`}>
           {basics.email}
         </a>
-        <div id="redes" className="flex gap-2">
+        <div id="socials" className="flex gap-2">
           {basics.socials.map((socials) => (
             <Fragment key={socials.network}>
               <a target="_blank" href={socials.url} className="hover:underline">
@@ -41,10 +41,10 @@ export default async function Home() {
         </p>
         <ul className="list-disc list-inside">
           <li>
-            I&apos;m interested in how technology intersects with society.
+            Interested in how technology intersects with society.
           </li>
           <li>
-            I&apos;m deeply fascinated by consciousness and the human mind.
+            Deeply fascinated by consciousness and the human mind.
           </li>
         </ul>
       </section>
