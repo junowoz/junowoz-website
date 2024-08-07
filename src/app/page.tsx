@@ -5,6 +5,12 @@ import { basics } from "@/data/basics";
 import { projects } from "@/data/projects";
 import { techStack } from "@/data/techStack";
 import { socials } from "@/data/socials";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "junowoz | index",
+  description: "जूनोवोस्",
+};
 
 export default async function Home() {
   return (

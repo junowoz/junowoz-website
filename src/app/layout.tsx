@@ -1,16 +1,12 @@
-import type { Metadata } from "next";
 import "@/styles/globals.css";
 import Link from "next/link";
 import { navItems } from "@/data/navItems";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "junowoz | website",
-  description: "जूनोवोस्",
   openGraph: {
     type: "website",
     url: "https://junowoz.com",
-    title: "junowoz | website",
-    description: "जूनोवोस्",
     siteName: "junowoz",
     images: [
       {

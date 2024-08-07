@@ -1,5 +1,11 @@
 import { books } from "@/data/books";
 import React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "junowoz | books",
+  description: "पुस्तकानि",
+};
 
 export default function Books() {
   return (

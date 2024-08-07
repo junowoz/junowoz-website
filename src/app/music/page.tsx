@@ -1,4 +1,10 @@
 import React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "junowoz | music",
+  description: "संगीतं",
+};
 
 export default function Music() {
   return (

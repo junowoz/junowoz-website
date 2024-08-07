@@ -1,5 +1,11 @@
-import { links } from "@/data/links";
 import React from "react";
+import { links } from "@/data/links";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "junowoz | links",
+  description: "लिङ्कानि",
+};
 
 export default function Links() {
   return (
