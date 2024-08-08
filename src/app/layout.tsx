@@ -31,26 +31,15 @@ export default function RootLayout({
     <html lang="en" className="overflow-x-hidden">
       <body className="bg-bg text-white font-mono text-sm p-4 max-w-3xl mx-auto flex flex-col gap-4">
         <nav className="text-secondary flex flex-wrap gap-2">
-          {navItems.map((item) =>
-            item.external ? (
-              <a
-                target="_blank"
-                key={item.href}
-                className="hover:bg-hover hover:text-white"
-                href={item.href}
-              >
-                {item.label}
-              </a>
-            ) : (
-              <Link
-                key={item.href}
-                className="hover:bg-hover hover:text-white"
-                href={item.href}
-              >
-                {item.label}
-              </Link>
-            ),
-          )}
+          {navItems.map((item) => (
+            <Link
+              key={item.href}
+              className="hover:bg-hover hover:text-white"
+              href={item.href}
+            >
+              {item.label}
+            </Link>
+          ))}
         </nav>
         <main>{children}</main>
         <footer className="text-foreground">
