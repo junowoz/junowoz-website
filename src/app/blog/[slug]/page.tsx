@@ -6,14 +6,15 @@ import { PostPageProps } from "@/interfaces";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { notFoundMetadata } from "@/app/not-found";
 
 export async function generateMetadata({
   params,
 }: PostPageProps): Promise<Metadata> {
   const post = getPostContent(params.slug);
-  if (!post) return { title: "Post Not Found" };
+  if (!post) return notFoundMetadata;
   return {
-    title: `${post.title} | junowoz blog`,
+    title: `junowoz | ${post.title} `,
     description: post.title,
   };
 }

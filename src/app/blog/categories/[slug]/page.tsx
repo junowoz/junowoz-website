@@ -9,8 +9,8 @@ export async function generateMetadata({
 }: CategoryPageProps): Promise<Metadata> {
   const categoryName = decodeURIComponent(params.slug).replace(/-/g, " ");
   return {
-    title: `${categoryName} | junowoz blog categories`,
-    description: `Posts in the ${categoryName} category`,
+    title: `junowoz | ${categoryName} category`,
+    description: `posts in the ${categoryName} category`,
   };
 }
 
@@ -18,7 +18,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
   const postMetadata = getPostMetadata();
   const categoryName = decodeURIComponent(params.slug).replace(/-/g, " ");
   const categoryPosts = postMetadata.filter(
-    (post) => post.category.toLowerCase() === categoryName.toLowerCase(),
+    (post) => post.category.toLowerCase() === categoryName.toLowerCase()
   );
   return (
     <div className="flex flex-col gap-4">
