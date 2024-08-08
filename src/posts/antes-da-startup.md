@@ -1,7 +1,7 @@
 ---
 title: "Antes da Startup"
-date: '2023-7-18'
-category: 'startups'
+date: "2023-7-18"
+category: "startups"
 published: true
 ---
 

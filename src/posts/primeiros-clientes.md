@@ -1,7 +1,7 @@
 ---
-title: 'Como Conseguir Seus Primeiros Clientes'
-date: '2023-06-27'
-category: 'startups'
+title: "Como Conseguir Seus Primeiros Clientes"
+date: "2023-06-27"
+category: "startups"
 published: true
 ---
 

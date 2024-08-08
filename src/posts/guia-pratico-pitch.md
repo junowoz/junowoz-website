@@ -1,7 +1,7 @@
 ---
-title: 'Manual do Pitch'
-date: '2023-06-27'
-category: 'startups'
+title: "Manual do Pitch"
+date: "2023-06-27"
+category: "startups"
 published: true
 ---
 

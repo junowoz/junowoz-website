@@ -1,7 +1,7 @@
 ---
-title: 'Fundamentos da Diversificação: Conceitos'
-date: '2023-04-14'
-category: 'economia'
+title: "Fundamentos da Diversificação: Conceitos"
+date: "2023-04-14"
+category: "economia"
 published: true
 ---
 

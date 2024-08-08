@@ -1,7 +1,7 @@
 ---
-title: 'Conselhos Essenciais: Y Combinator'
-date: '2023-08-07'
-category: 'startups'
+title: "Conselhos Essenciais: Y Combinator"
+date: "2023-08-07"
+category: "startups"
 published: true
 ---
 

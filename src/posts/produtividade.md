@@ -1,7 +1,7 @@
 ---
 title: "Pensamentos sobre Produtividade"
-date: '2023-05-10'
-category: 'filosofia'
+date: "2023-05-10"
+category: "filosofia"
 published: true
 ---
 

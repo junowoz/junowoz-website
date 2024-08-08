@@ -1,7 +1,7 @@
 ---
-title: 'Criptomoedas: Bitcoin, Ethereum e conceitos essenciais'
-date: '2023-04-16'
-category: 'economia'
+title: "Criptomoedas: Bitcoin, Ethereum e conceitos essenciais"
+date: "2023-04-16"
+category: "economia"
 published: true
 ---
 

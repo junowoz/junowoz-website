@@ -1,7 +1,7 @@
 ---
 title: "Por que não começar uma startup"
-date: '2023-08-09'
-category: 'startups'
+date: "2023-08-09"
+category: "startups"
 published: true
 ---
 

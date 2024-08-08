@@ -1,7 +1,7 @@
 ---
 title: "Conteitos básicos de Java"
-date: '2023-07-10'
-category: 'computação'
+date: "2023-07-10"
+category: "computação"
 published: true
 ---
 

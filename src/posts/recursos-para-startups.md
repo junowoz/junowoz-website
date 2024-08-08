@@ -1,7 +1,7 @@
 ---
-title: 'Recursos para Startups'
-date: '2023-6-13'
-category: 'startups'
+title: "Recursos para Startups"
+date: "2023-6-13"
+category: "startups"
 published: true
 ---
 

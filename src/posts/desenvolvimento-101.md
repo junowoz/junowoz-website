@@ -1,7 +1,7 @@
 ---
-title: 'Desenvolvimento 101: O Guia Definitivo para Iniciantes'
-date: '2023-05-10'
-category: 'computação'
+title: "Desenvolvimento 101: O Guia Definitivo para Iniciantes"
+date: "2023-05-10"
+category: "computação"
 published: true
 ---
 

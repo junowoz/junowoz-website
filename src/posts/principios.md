@@ -1,7 +1,7 @@
 ---
 title: "Princípios"
-date: '2023-08-07'
-category: 'filosofia'
+date: "2023-08-07"
+category: "filosofia"
 published: true
 ---
 

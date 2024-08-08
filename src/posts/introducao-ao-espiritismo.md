@@ -1,7 +1,7 @@
 ---
-title: 'Uma Introdução ao Espiritismo'
-date: '2023-05-29'
-category: 'espiritismo'
+title: "Uma Introdução ao Espiritismo"
+date: "2023-05-29"
+category: "espiritismo"
 published: true
 ---
 

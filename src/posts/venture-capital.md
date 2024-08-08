@@ -1,7 +1,7 @@
 ---
 title: "O que é Venture Capital?"
-date: '2023-06-13'
-category: 'startups'
+date: "2023-06-13"
+category: "startups"
 published: true
 ---
 
@@ -10,6 +10,7 @@ Venture Capital é um tipo de investimento de risco, onde o investidor compra um
 Venture Capital faz um papel vital no crescimento de uma startup
 
 - Desenvolvimento da empresa
+
   1. Ideia/Começo
   2. Desenvolvimento
   3. Crescimento
