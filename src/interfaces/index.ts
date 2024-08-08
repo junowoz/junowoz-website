@@ -25,11 +25,30 @@ export interface Books {
 export interface NavItems {
   href: string;
   label: string;
-  external?: boolean;
 }
 
 export interface Links {
   url: string;
   name: string;
   description: string;
+}
+
+export interface PostMetadata {
+  title: string;
+  date: string;
+  category: string;
+  published: boolean;
+  slug: string;
+}
+
+export interface PostPageProps {
+  params: {
+    slug: string;
+  };
+}
+
+export interface CategoryPageProps {
+  params: {
+    slug: string;
+  };
 }
