@@ -14,8 +14,8 @@ export const socials: Socials[] = [
     network: "linkedin",
   },
   {
-    url: "https://twitter.com/junow0z",
-    network: "twitter",
+    url: "https://x.com/junow0z",
+    network: "x",
   },
   {
     url: "https://vitae.cv/view/LS0hzLcDnR",
