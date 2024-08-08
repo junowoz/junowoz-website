@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function Categories() {
   const postMetadata = getPostMetadata();
   const categories = Array.from(
-    new Set(postMetadata.map((post) => post.category))
+    new Set(postMetadata.map((post) => post.category)),
   );
 
   return (

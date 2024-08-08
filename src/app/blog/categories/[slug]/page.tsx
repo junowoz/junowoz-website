@@ -18,7 +18,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
   const postMetadata = getPostMetadata();
   const categoryName = decodeURIComponent(params.slug).replace(/-/g, " ");
   const categoryPosts = postMetadata.filter(
-    (post) => post.category.toLowerCase() === categoryName.toLowerCase()
+    (post) => post.category.toLowerCase() === categoryName.toLowerCase(),
   );
   return (
     <div className="flex flex-col gap-4">

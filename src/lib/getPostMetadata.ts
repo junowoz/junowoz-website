@@ -7,7 +7,7 @@ export function getPostMetadata(): PostMetadata[] {
   const folder = path.join(process.cwd(), "/src/posts");
   const files = fs.readdirSync(folder, { recursive: true }) as string[];
   const markdownPosts = files.filter(
-    (file) => typeof file === "string" && file.endsWith(".md")
+    (file) => typeof file === "string" && file.endsWith(".md"),
   );
 
   const posts = markdownPosts.map((fileName) => {
