@@ -10,12 +10,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "next": "14.2.5",
     "prettier": "^3.3.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-markdown": "^9.0.1"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.14",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
