@@ -48,19 +48,12 @@ export default function PostPage({ params }: PostPageProps) {
       <Link href="/blog" className="text-secondary hover:underline">
         [BACK TO BLOG]
       </Link>
-      <div className="flex gap-2">
+      <div className="flex flex-col sm:flex-row sm:gap-2">
         <p className="text-foreground">{post.date}</p>
-        <span className="font-bold">{post.title}</span>
-        <Link
-          href={`/blog/categories/${post.category.toLowerCase().replace(/\s+/g, "-")}`}
-          className="hover:underline text-primary"
-        >
-          [{post.category}]
-        </Link>
-        <hr />
+        <p className="font-bold">{post.title}</p>
       </div>
-      <article>
-        <Markdown className="prose prose-invert">{post.content}</Markdown>
+      <article className="prose prose-invert">
+        <Markdown>{post.content}</Markdown>
       </article>
     </div>
   );
