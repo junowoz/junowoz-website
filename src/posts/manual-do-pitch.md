@@ -18,11 +18,12 @@ Um pitch é uma apresentação concisa de 3 a 5 minutos com o objetivo de desper
   - Você deve captar a atenção nos primeiros 5 segundos
   - Frase de impacto, com emoção e brilho nos olhos
 - Obsessão por didática e clareza na comunicação;
-  1. Persona ("Fernando é pai de quatro filhos, ama muito sua família")
-  2. História pessoal (amamos histórias)
-  3. Pergunta retórica intrigante
-  4. Fato/dado/estatística curiosa, impactante
-  5. Citação arrasadora
+
+1. Persona ("Fernando é pai de quatro filhos, ama muito sua família")
+2. História pessoal (amamos histórias)
+3. Pergunta retórica intrigante
+4. Fato/dado/estatística curiosa, impactante
+5. Citação arrasadora
 
 ## Estrutura
 
